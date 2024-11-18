@@ -1,0 +1,411 @@
+---
+title: "Albrecht_data_exploration"
+format: html
+editor: visual
+---
+
+## Set up and read in the data
+clear environment and open packages 
+```{r}
+rm(list=ls())
+library(tidyverse)
+library("here")
+library(ggfortify)
+library(multcomp)
+```
+
+Read in the data
+
+```{r}
+frugivoria_mammals <- read.csv(here("Data","Albrecht_Frugivoria_mammal_database_2023_simple.csv"))
+frugivoria_birds <- read.csv(here("Data","Albrecht_Frugivoria_bird_database_2023_full.csv"))
+```
+
+Take a glimpse at both datasets to understand whats going on in there.
+```{r}
+glimpse(frugivoria_birds)
+glimpse(frugivoria_mammals)
+```
+
+Since I am working with two different data sets I am going to compartmentaize my checking and altering as to not confuse myself.
+
+## Check data for mistakes and outliers 
+### Mammals 
+From this dataset, the variables I will be using are IUCN_category, mean_human_fp_range_2020, and diet_breadth. 
+
+First, I will check my categorical variable for any errors.
+
+Convert IUCN_category from character to factor data
+```{r}
+frugivoria_mammals$IUCN_category <- as.factor(frugivoria_mammals$IUCN_category)
+```
+
+Look at the level of IUCN categorization 
+```{r}
+levels(frugivoria_mammals$IUCN_category)
+```
+There are no duplicates, this is good. I am contemplating converting the abbreviations to their full name (ex. LC -> least concern) but have decided against it. 
+
+Next I will check my ratio data for outliers by making histograms. 
+
+```{r}
+ggplot(frugivoria_mammals, aes(diet_breadth)) + 
+  geom_histogram(binwidth = 0.1) + 
+  theme_bw()
+```
+There are no visible outliers here, I am happy with this. 
+
+Now for the human footprint.
+
+```{r}
+ggplot(frugivoria_mammals, aes(mean_human_fp_range_2020)) + 
+  geom_histogram() + 
+  theme_bw()
+```
+
+There seems to be some outliers. I will now make a box-plot to better visualize what exactly is the outlier. 
+```{r}
+ggplot(frugivoria_mammals, aes(mean_human_fp_range_2020)) + 
+  geom_boxplot() + 
+  theme_bw()
+```
+I think that I will ommit values over 2500 because they are likely to disproportionately skew the data. 
+
+Lets make the new dataset after omiting chosen outliers. 
+
+```{r}
+frugivoria_mammals2 <- filter(frugivoria_mammals, mean_human_fp_range_2020 < 2500)
+```
+
+Save this as a new csv file
+
+```{r}
+write.csv(frugivoria_mammals2, here("Data", "frugivoria_mammals_edited.csv"))
+```
+
+
+### Birds 
+Throughout my analyses with this data set, I will be using the following: IUCN_category, diet_inv_e, diet_fruit_e, body_size_mm, longevity, home_range_size, and generation_time
+
+Once again we will check the categorical variable first
+
+Convert IUCN_category from character to factor data
+```{r}
+frugivoria_birds$IUCN_category <- as.factor(frugivoria_birds$IUCN_category)
+```
+
+Look at the level of IUCN categorization 
+```{r}
+levels(frugivoria_birds$IUCN_category)
+```
+I got what I had for the mammals which is to be expected 
+
+Now onto making a histogram for each of the 6 ratio data variables.
+
+```{r}
+ggplot(frugivoria_birds, aes(diet_fruit_e)) + 
+  geom_histogram() +
+  theme_bw()
+```
+looks normal. no changes.
+
+```{r}
+ggplot(frugivoria_birds, aes(diet_inv_e)) + 
+  geom_histogram() +
+  theme_bw()
+```
+looks normal. no changes.
+
+```{r}
+ggplot(frugivoria_birds, aes(body_size_mm)) + 
+  geom_histogram() +
+  theme_bw()
+```
+appears there are a few outliers. 
+make a box plot to make sure. 
+```{r}
+ggplot(frugivoria_birds, aes(body_size_mm)) + 
+  geom_boxplot() +
+  theme_bw()
+```
+lots of outliers that I didnt pick up on. I only fear those over 100 skewing the analysis so I will only omit those. 
+
+
+```{r}
+ggplot(frugivoria_birds, aes(home_range_size)) + 
+  geom_histogram() +
+  theme_bw()
+```
+Once again there seems to be some outliers 
+
+making a boxplot
+```{r}
+ggplot(frugivoria_birds, aes(home_range_size)) + 
+  geom_boxplot() +
+  theme_bw()
+```
+Omit the points over 1000. 
+
+```{r}
+ggplot(frugivoria_birds, aes(longevity)) + 
+  geom_histogram() +
+  theme_bw()
+```
+Looks normal enough. No changes.
+
+```{r}
+ggplot(frugivoria_birds, aes(generation_time)) + 
+  geom_histogram(binwidth = 0.2) +
+  theme_bw()
+```
+The largest may be an outlier. Double check with a box plot. 
+```{r}
+ggplot(frugivoria_birds, aes(generation_time)) + 
+  geom_boxplot() +
+  theme_bw()
+```
+Looking further at the data, I think it will be fine and probably a result of natural variation. 
+
+Make the actual changes to the data frames by using the filter function.
+
+I will make it a new dataframe as a saftey measure 
+```{r}
+frugivoria_birds2 <- filter(frugivoria_birds,
+                            body_size_mm <1000 & home_range_size <500 )
+```
+
+This new dataframe has 7 less observations. 
+
+Lets save it as a new dataset.
+```{r}
+write.csv(frugivoria_birds2, here("Data","frugivoria_birds_edited.csv"))
+```
+
+## Preliminary Data Analysis 
+I am going to clear my environment and just read in my new csv files as to not clutter my environment. 
+
+```{r}
+rm(list=ls())
+frugivoria_mammal <- read.csv(here("Data","frugivoria_mammals_edited.csv"))
+frugivoria_bird <- read.csv(here("Data", "frugivoria_birds_edited.csv"))
+```
+
+### Analysis 1
+In this analysis, I am looking at the relationship between 
+IUCN status, diet breadth, and human footprint using an oridinal regression. I will do three preliminary analyses comparing acrooss these variables
+
+First. Does diet breadth differ between IUCN categories. 
+
+Make a histogram to compare the means of diet breadths. 
+
+```{r}
+ggplot(frugivoria_mammal, aes(diet_breadth)) + 
+  geom_histogram() + 
+  facet_wrap(~ IUCN_category) +
+  theme_bw()
+```
+
+Now a boxplot because they are personally just easier for me to read. 
+
+```{r}
+ggplot(frugivoria_mammal, aes(x=IUCN_category, y=diet_breadth)) + 
+  geom_boxplot() + 
+  theme_bw()
+```
+
+After consulting with Erika. I have decided to omit LC and DD from my analysis. 
+
+```{r}
+mammal_iucn <- filter(frugivoria_mammal, IUCN_category == "CR" |  IUCN_category == "EN" |  IUCN_category == "NT" | IUCN_category == "VU")
+```
+
+
+```{r}
+ggplot(mammal_iucn, aes(diet_breadth)) + 
+  geom_histogram() + 
+  facet_wrap(~ IUCN_category) +
+  theme_bw()
+```
+
+Create another box-plot.
+
+```{r}
+ggplot(mammal_iucn, aes(x=IUCN_category, y=diet_breadth)) + 
+  geom_boxplot() + 
+   theme_bw()
+```
+
+Find the mean and standard deviations for the categories
+
+```{r}
+mammal_iucn %>%
+  group_by(IUCN_category) %>%
+  summarise(mean_diet = mean(diet_breadth), 
+            sd_diet = sd(diet_breadth))
+```
+There seems not to be any strong correlation.The trend if anything seems to contradict my predictions.
+
+Now compare the relaionship between IUCN status and human footprint. We are still going to use the new "mammal_iucn" dataframe because all of these variables will be compared together at some point. 
+
+Make a histogram of distirubtions of human footprint recordings by IUCN categories 
+```{r}
+ggplot(mammal_iucn, aes(mean_human_fp_range_2020)) + 
+  geom_histogram() + 
+  facet_wrap(~ IUCN_category) +
+  theme_bw()
+```
+
+Create a box-plot.
+
+```{r}
+ggplot(mammal_iucn, aes(x=IUCN_category, y=mean_human_fp_range_2020)) + 
+  geom_boxplot() + 
+   theme_bw()
+```
+
+There appears to be a correlation between mean human footprint and IUCN category with a higher human footprint correlating with higher endangerment risk. (except once again with NT and VU being inversed of where I would expect them)
+
+I think I need to retroactively omit the outlier in the endangered
+
+Now to look at the relationship between human footprint and diet breadth 
+```{r}
+ggplot(frugivoria_mammal, aes(x=diet_breadth, y=mean_human_fp_range_2020))+
+  geom_point() + 
+  theme_bw()
+```
+I am not seeing any visible relationship. I suspect there is not a signficant relationship between the two variables. 
+
+
+### Analysis 2
+Intial plot 
+```{r}
+ggplot(frugivoria_bird, aes(x= diet_breadth, y= body_size_mm)) + 
+  geom_point() +
+  theme_bw()
+```
+There does not seem to be much of a correlation. This may becasye there is so much variety in body size amongst so many families.
+
+To address this, lets keep the data into one family. The family with the most entries is parrots so lets make a dataframe of only parrots. 
+
+#### Making a parrot dataframe
+pull back in the original dataframe
+```{r}
+frugivoria_birds <- read.csv(here("Data", "Albrecht_Frugivoria_bird_database_2023_full.csv"))
+```
+
+
+```{r}
+frugivoria_parrots <- filter(frugivoria_birds, family_e == "Psittacidae")
+```
+Now we have a dataframe of 118 observations called "frugivoria_parrots"
+
+Save the parrot data as a new csv file
+```{r}
+write.csv(frugivoria_parrots, here("Data","frugivoria_parrots.csv"))
+```
+
+Now pull in frugivoria_parrots
+```{r}
+frugivoria_parrots <- read.csv(here("Data","frugivoria_parrots.csv"))
+```
+
+
+Now lets plot that data in a graph. 
+```{r}
+ggplot(frugivoria_parrots, aes(x=diet_breadth, y=body_size_mm))+ 
+  geom_point() + 
+  theme_bw()
+```
+Still doesn't look to be much of a trend. The abscence of diet breadth between 0.0 and 0.5 besides on point is interesting. 
+
+
+### Analysis 3
+Make boxplots to look at the relationships between IUCN and my other bird numerical variables. 
+
+```{r}
+ggplot(frugivoria_birds2, aes(x=IUCN_category, y=diet_inv_e))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+It seems that there is a significant difference in the percent of the birds diet composed on invertebrates in relationship to IUCN status. CR and EN have very low percentages whilst LC has the most. VU seemingly has a higher mean than NT but there may be no significant difference between the two. 
+
+```{r}
+ggplot(frugivoria_birds2, aes(x=IUCN_category, y=diet_fruit_e))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+It appears that the higher percent of fruit in a birds diet, the higher their extinction risk, except the relationship between NT, VU, and LC not being what I expected. 
+
+```{r}
+ggplot(frugivoria_birds2, aes(x=IUCN_category, y=body_size_mm))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+Large body sizes seem to somewhat correspond to IUCN categories. however, only CR seems to be signigicantly different from the rest.  
+
+```{r}
+ggplot(frugivoria_birds2, aes(x=IUCN_category, y=longevity))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+There seems to be a significant difference in the mean longevity of species across IUCN categories. however, the relationship is unexpected the longevity being the highest in EN followed by CR, NT, LC, and VU.
+
+```{r}
+ggplot(frugivoria_birds2, aes(x=IUCN_category, y=home_range_size))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+It appears that larger homeranges result in higher IUCN categories.
+```{r}
+ggplot(frugivoria_birds2, aes(x=IUCN_category, y=generation_time))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+
+
+Because I am working with IUCN values again, I am also going to limit this down to the IUCN categories NT, VU, EN, and CR.(basically I am omitting species ranked LC)
+This won't change any of the means or the patterns because I am just removing a treatment level. all of the observations for the plots are exactly the same. 
+
+Make the new dataframe and run it all again
+```{r}
+frugivoria_birds3 <- filter(frugivoria_birds2, IUCN_category == "CR" | IUCN_category == "EN" | IUCN_category == "NT" | IUCN_category == "VU")
+```
+
+```{r}
+ggplot(frugivoria_birds3, aes(x=IUCN_category, y=diet_inv_e))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+
+```{r}
+ggplot(frugivoria_birds3, aes(x=IUCN_category, y=diet_fruit_e))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+
+```{r}
+ggplot(frugivoria_birds3, aes(x=IUCN_category, y=body_size_mm))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+
+
+```{r}
+ggplot(frugivoria_birds3, aes(x=IUCN_category, y=longevity))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+
+
+```{r}
+ggplot(frugivoria_birds3, aes(x=IUCN_category, y=home_range_size))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+
+```{r}
+ggplot(frugivoria_birds3, aes(x=IUCN_category, y=generation_time))+ 
+  geom_boxplot() +
+  theme_bw()
+```
+The patterns are the exact same because I just removed a treatment level. But now there are only 26 observations so I am mildly concerned.
