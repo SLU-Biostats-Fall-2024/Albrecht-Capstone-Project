@@ -1,0 +1,31 @@
+Evelyn Albrecht
+10/25/2024
+Albrecht_Frugivoria_mammal_database_2023_simple.csv
+
+Citation: Gerstner, B.E., P.L. Zarnetske, and P. Bills. 2023. Frugivoria: A trait database for birds and mammals exhibiting frugivory across contiguous Neotropical moist forests ver 6. Environmental Data Initiative. https://doi.org/10.6073/pasta/66423109f351d2fdc0fdbe9c4001e19e (Accessed 2024-10-25).
+
+link to Data: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1220.6
+
+Description: Compiling data from 1924 to 2023, Beth Gerstner, Pheobe Zarnetske and Patrick Bill sought to create a robust dataset which would allow for the quantifying of functional diversity within ecosystems. Frugivoria is a trait database, recording information on “dietary, life-history, morphological, and geographic traits” of frugivorous birds and mammals in Central and South America.  Frugivoria serves as a resource to make research involving these species more accessible. 
+
+This file represents the simplified mammal database table within the broader database. Its simplification is the elimination of any traits that are not shared with birds.
+
+----------Key-------------
+IUCN_species_name - Full species name
+common_name - species common name
+genus - species genus
+species - species name 
+subspecies - subspecies name if applicable 
+diet_cat_e - overall diet categorization obtained from percent prevalence foraging data 
+diet_breadth - the total amount of types of organisms that the species consumes. The Shannon diversity index is applied to take into account the abundances of these different food sources  
+IUCN_category - International Union for Conservation of Nature (the following rankings in this dataset are - Critically endangered (CR), data deficient (DD), endangered (EN), least concern (LC), near threatened (NT), vulnerable (V). 
+mean_human_fp_range_2010 - weighted sum of human disturbance based on population density, infrastructure, and electricity use for the year of 2010
+mean_human_fp_range_2020 - weighted sum of human disturbance based on population density, infrastructure, and electricity use for the year of 2020
+percent_change_hf_2010_2020 - difference in mean human footprint between 2010 and 2020
+
+
+Clean up steps 
+- Make a copy of the original data set. 
+- Data validation isn't needed, having been done by Gerstner et al.
+- none of the column headings need to be changed nor do any of the entered observations. 
+- There are 54 columns in the original dataset. Much of that isn't relevant to my analysis so I will be deleting said irrelevant data. All columns from the original data set that are not designated on the key have been deleted. 

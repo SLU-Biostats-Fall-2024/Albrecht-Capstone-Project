@@ -1,0 +1,592 @@
+"","IUCN_species_name","common_name","family","genus","species","subspecies","diet_cat","diet_breadth","IUCN_category","mean_human_fp_range_2010","mean_human_fp_range_2020","percent_change_hf_2010_2020"
+"1","Abrawayaomys chebezi","Chebez's spiny mouse","Cricetidae","Abrawayaomys","chebezi",NA,"PlantSeed",1.279854226,"DD",905.6728654,1318.700017,45.60445249
+"2","Abrawayaomys ruschii","Ruschi's rat","Cricetidae","Abrawayaomys","ruschii",NA,"PlantSeed",1.279854226,"LC",968.0478855,1300.234764,34.31512878
+"3","Aconaemys fuscus","Chilean rock rat","Octodontidae","Aconaemys","fuscus",NA,"PlantSeed",0.673011667,"LC",470.0171347,636.7003393,35.46321874
+"4","Aconaemys porteri","Porter's Rock Rat","Octodontidae","Aconaemys","porteri",NA,"PlantSeed",0.673011667,"DD",458.1791676,619.2294136,35.15005863
+"5","Aepeomys lugens","Olive montane mouse","Cricetidae","Aepeomys","lugens",NA,"PlantSeed",1.279854226,"LC",935.073811,1045.819066,11.84347738
+"6","Aepeomys reigi","Reig's montane mouse","Cricetidae","Aepeomys","reigi",NA,"PlantSeed",1.279854226,"VU",1108.673395,1186.775775,7.044669823
+"7","Alouatta arctoidea","Ursine howler","Atelidae","Alouatta","arctoidea",NA,"PlantSeed",0.673011667,"LC",890.8985565,1063.367335,19.35896931
+"8","Alouatta caraya","Black-and-gold Howler Monkey","Atelidae","Alouatta","caraya",NA,"PlantSeed",0.673011667,"NT",541.7462045,712.3989067,31.50048874
+"9","Alouatta guariba","Brown howler","Atelidae","Alouatta","guariba",NA,"PlantSeed",0.673011667,"LC",944.0493442,1245.116858,31.8910781
+"10","Alouatta juara","Juruá red howler","Atelidae","Alouatta","juara",NA,"PlantSeed",0.673011667,"LC",328.8717874,410.4809843,24.81489748
+"11","Alouatta macconnelli","Guyanan red howler","Atelidae","Alouatta","macconnelli",NA,"PlantSeed",0.673011667,"LC",124.4419117,176.040563,41.46404577
+"12","Alouatta palliata","Azuero howler","Atelidae","Alouatta ","palliata","trabeata","PlantSeed",0.673011667,"EN",931.4985167,1129.181786,21.22207017
+"13","Alouatta palliata","Mexican howler","Atelidae","Alouatta ","palliata","mexicana","PlantSeed",0.673011667,"EN",931.4985167,1129.181786,21.22207017
+"14","Alouatta palliata","Mantled howler monkey","Atelidae","Alouatta","palliata",NA,"PlantSeed",0.673011667,"LC",931.4985167,1129.181786,21.22207017
+"15","Alouatta pigra","Yucatán black howler","Atelidae","Alouatta","pigra",NA,"PlantSeed",0.673011667,"EN",620.2911446,818.5840713,31.96771846
+"16","Alouatta puruensis","Purús Red Howler Monkey","Atelidae","Alouatta","puruensis",NA,"PlantSeed",0.673011667,"LC",145.9613032,221.0937438,51.47421877
+"17","Alouatta sara","Bolivian Red Howler Monkey","Atelidae","Alouatta","sara",NA,"PlantSeed",0.673011667,"LC",330.2945532,466.3333319,41.18710933
+"18","Alouatta seniculus","Venezuelan red howler","Atelidae","Alouatta","seniculus",NA,"PlantSeed",0.673011667,"LC",356.3563552,447.9306564,25.69739528
+"19","Ametrida centurio","Little White-shouldered Bat","Phyllostomidae","Ametrida","centurio",NA,"FruiNect",0,"LC",286.7241487,388.554666,35.51515203
+"20","Anoura aequatoris","Equatorial tailless bat","Phyllostomidae","Anoura","aequatoris",NA,"Omnivore",1.088899975,"LC",541.8437318,696.2831269,28.50257112
+"21","Anoura cadenai","Cadena's tailless bat","Phyllostomidae","Anoura","cadenai",NA,"Omnivore",1.088899975,"DD",1127.338893,1315.882289,16.72464223
+"22","Anoura caudifer","Tailed tailless bat","Phyllostomidae","Anoura","caudifer",NA,"Omnivore",1.088899975,"LC",475.7478894,609.6594028,28.14757909
+"23","Anoura cultrata","Anoura cultrata","Phyllostomidae","Anoura","cultrata",NA,"Omnivore",1.088899975,"LC",751.2496877,909.1795735,21.02228971
+"24","Anoura fistulata","Tube-lipped nectar bat","Phyllostomidae","Anoura","fistulata",NA,"Omnivore",1.088899975,"DD",511.0355026,701.384692,37.24774275
+"25","Anoura geoffroyi","Geoffroy's tailless bat","Phyllostomidae","Anoura","geoffroyi",NA,"Omnivore",1.088899975,"LC",652.9711372,825.4589555,26.41584115
+"26","Anoura latidens","Broad-toothed Tailless Bat","Phyllostomidae","Anoura","latidens",NA,"Omnivore",1.088899975,"LC",615.6464994,728.7427355,18.37032067
+"27","Anoura luismanueli","Luis Manuel's tailless bat","Phyllostomidae","Anoura","luismanueli",NA,"Omnivore",1.088899975,"LC",964.4440793,1106.090515,14.68684795
+"28","Anoura peruana",NA,"Phyllostomidae","Anoura","peruana",NA,"Omnivore",1.088899975,"LC",690.6618878,880.2083694,27.44417854
+"29","Aotus azarae","Azara's night monkey","Aotidae","Aotus","azarae",NA,"Omnivore",1.748067349,"LC",306.132174,451.3749199,47.44445642
+"30","Aotus brumbacki","Brumback's Night Monkey","Aotidae","Aotus","brumbacki",NA,"Omnivore",1.748067349,"VU",544.781015,744.0255371,36.57332333
+"31","Aotus griseimembra","Grey-handed Night Monkey","Aotidae","Aotus","griseimembra",NA,"Omnivore",1.748067349,"VU",1083.030439,1258.19564,16.17361754
+"32","Aotus jorgehernandezi","Hernández-Camacho's night monkey","Aotidae","Aotus","jorgehernandezi",NA,"Omnivore",1.748067349,"DD",361.4337259,381.3744645,5.517121734
+"33","Aotus lemurinus","Gray-bellied night monkey","Aotidae","Aotus","lemurinus",NA,"Omnivore",1.748067349,"VU",880.9701115,1048.071668,18.96790305
+"34","Aotus miconax","Peruvian night monkey","Aotidae","Aotus","miconax",NA,"Omnivore",1.748067349,"VU",343.1754419,439.2659718,28.00040977
+"35","Aotus nancymaae","Nancy Ma's night monkey","Aotidae","Aotus","nancymaae",NA,"Omnivore",1.748067349,"VU",125.0240911,167.4416794,33.92753179
+"36","Aotus nigriceps","Black-headed night monkey","Aotidae","Aotus","nigriceps",NA,"Omnivore",1.748067349,"LC",138.8267937,209.1711399,50.67058335
+"37","Aotus trivirgatus","Three-striped night monkey","Aotidae","Aotus","trivirgatus",NA,"Omnivore",1.748067349,"LC",96.18620041,136.9703094,42.40120596
+"38","Aotus vociferans","Spix's night monkey","Aotidae","Aotus","vociferans",NA,"Omnivore",1.748067349,"LC",132.9962469,183.829781,38.22178088
+"39","Aotus zonalis","Panamanian night monkey","Aotidae","Aotus","zonalis",NA,"Omnivore",1.748067349,"DD",598.3695511,697.5804932,16.58021233
+"40","Artibeus aequatorialis","Anderson's fruit-eating bat","Phyllostomidae","Artibeus","aequatorialis",NA,"FruiNect",0.63903186,"LC",966.3257348,1248.62962,29.21415366
+"41","Artibeus amplus","Large fruit-eating bat","Phyllostomidae","Artibeus","amplus",NA,"FruiNect",0.63903186,"LC",643.4244032,769.1987802,19.54765415
+"42","Artibeus concolor","Brown Fruit-eating Bat","Phyllostomidae","Artibeus","concolor",NA,"FruiNect",0.63903186,"LC",246.2413825,332.920761,35.20097948
+"43","Artibeus hirsutus","Hairy Fruit-eating Bat","Phyllostomidae","Artibeus","hirsutus",NA,"FruiNect",0.63903186,"LC",613.7350012,783.4584493,27.65419077
+"44","Artibeus jamaicensis","Jamaican Fruit-eating Bat","Phyllostomidae","Artibeus","jamaicensis",NA,"FruiNect",0.63903186,"LC",954.692924,1171.184593,22.67657624
+"45","Artibeus lituratus","Great Fruit-eating Bat","Phyllostomidae","Artibeus","lituratus",NA,"FruiNect",0.63903186,"LC",480.4962272,624.3800546,29.9448402
+"46","Artibeus obscurus","Dark Fruit-eating Bat","Phyllostomidae","Artibeus","obscurus",NA,"FruiNect",0.63903186,"LC",366.9324784,491.402009,33.92164444
+"47","Artibeus planirostris","Flat-faced Fruit-eating Bat","Phyllostomidae","Artibeus","planirostris",NA,"FruiNect",0.63903186,"LC",359.7064004,474.3075883,31.8596466
+"48","Ateles belzebuth","White-bellied spider monkey","Atelidae","Ateles","belzebuth",NA,"FruiNect",1.227529411,"EN",126.236185,178.2062669,41.16892622
+"49","Ateles chamek","Black-faced Black Spider Monkey","Atelidae","Ateles","chamek",NA,"FruiNect",1.227529411,"EN",166.6611606,247.9921848,48.80022674
+"50","Ateles fusciceps","Colombian spider monkey","Atelidae","Ateles","fusciceps","rufiventris","FruiNect",1.227529411,"VU",737.3138807,883.4115998,19.81486079
+"51","Ateles fusciceps","Brown-headed spider monkey","Atelidae","Ateles","fusciceps",NA,"FruiNect",1.227529411,"CR",737.3138807,883.4115998,19.81486079
+"52","Ateles geoffroyi","Hooded spider monkey","Atelidae","Ateles","geoffroyi","grisescens","FruiNect",1.227529411,"DD",913.8353824,1116.626441,22.19120231
+"53","Ateles geoffroyi","Geoffroy's spider monkey","Atelidae","Ateles","geoffroyi",NA,"FruiNect",1.227529411,"EN",913.8353824,1116.626441,22.19120231
+"54","Ateles geoffroyi","Ornate spider monkey","Atelidae","Ateles","geoffroyi","ornatus","FruiNect",1.227529411,"VU",913.8353824,1116.626441,22.19120231
+"55","Ateles hybridus","Brown spider monkey","Atelidae","Ateles","hybridus",NA,"FruiNect",1.227529411,"CR",957.8967003,1118.364351,16.75208303
+"56","Bassaricyon alleni","Eastern lowland olingo","Procyonidae","Bassaricyon","alleni",NA,"FruiNect",0.801818553,"LC",164.1503744,226.7478386,38.13421954
+"57","Bassaricyon gabbii","Northern olingo","Procyonidae","Bassaricyon","gabbii",NA,"FruiNect",0.801818553,"LC",898.368325,1031.032212,14.76720445
+"58","Bassaricyon medius","Western lowland olingo","Procyonidae","Bassaricyon","medius",NA,"FruiNect",0.801818553,"LC",783.0942252,989.0121141,26.2954166
+"59","Bassaricyon neblina","Olinguito","Procyonidae","Bassaricyon","neblina",NA,"FruiNect",0.801818553,"NT",989.7122246,1190.455962,20.2830411
+"60","Bassariscus astutus","Ringtail","Procyonidae","Bassariscus","astutus",NA,"FruiNect",0.801818553,"LC",551.1388417,860.0800407,56.05505829
+"61","Bassariscus sumichrasti","Cacomistle ","Procyonidae","Bassariscus","sumichrasti",NA,"FruiNect",0.801818553,"LC",863.0937727,1087.889567,26.04535004
+"62","Blarinomys breviceps","Brazilian shrew mouse","Cricetidae","Blarinomys","breviceps",NA,"PlantSeed",1.279854226,"LC",976.3810789,1276.433875,30.73111538
+"63","Cacajao ayresi","Ayres Black Uakari","Pitheciidae","Cacajao","ayresi",NA,"FruiNect",0.940447989,"LC",70.74271247,70.97182526,0.323867683
+"64","Cacajao calvus","Red Bald-headed Uakari","Pitheciidae","Cacajao","calvus","rubicundus","FruiNect",0.940447989,"VU",106.6845953,151.0838457,41.61730213
+"65","Cacajao calvus","Bald-headed Uacari","Pitheciidae","Cacajao","calvus",NA,"FruiNect",0.940447989,"VU",106.6845953,151.0838457,41.61730213
+"66","Cacajao calvus","Red Uacari","Pitheciidae","Cacajao","calvus","ucayalii","FruiNect",0.940447989,"VU",106.6845953,151.0838457,41.61730213
+"67","Cacajao calvus","Novaes' Bald-headed Uacari","Pitheciidae","Cacajao","calvus","novaesi","FruiNect",0.940447989,"VU",106.6845953,151.0838457,41.61730213
+"68","Cacajao hosomi","Neblina uakari","Pitheciidae","Cacajao","hosomi",NA,"FruiNect",0.940447989,"VU",32.0269044,50.05503623,56.29058496
+"69","Cacajao melanocephalus","Golden-backed uakari","Pitheciidae","Cacajao","melanocephalus",NA,"FruiNect",0.940447989,"LC",70.16390156,97.18900132,38.51709948
+"70","Caenolestes caniventer","Gray-bellied caenolestid","Caenolestidae","Caenolestes","caniventer",NA,"Invertebrate",0.940447989,"NT",985.2608957,1322.091422,34.18693742
+"71","Caenolestes condorensis","Andean caenolestid","Caenolestidae","Caenolestes","condorensis",NA,"Invertebrate",0.940447989,"VU",147.6791015,181.7794801,23.09086277
+"72","Caenolestes convelatus","Northern caenolestid","Caenolestidae","Caenolestes","convelatus",NA,"Invertebrate",0.940447989,"VU",704.8322321,878.1179129,24.58537975
+"73","Caenolestes fuliginosus","Tate's shrew opossum","Caenolestidae","Caenolestes","fuliginosus",NA,"Invertebrate",0.940447989,"LC",989.3018569,1203.934845,21.69539925
+"74","Caenolestes sangay","Eastern caenolestid","Caenolestidae","Caenolestes","sangay",NA,"Invertebrate",0.940447989,"VU",409.9009676,558.3781052,36.22268532
+"75","Callimico goeldii","Goeldi’s Monkey","Cebidae","Callimico","goeldii",NA,"Omnivore",0.943348392,"VU",134.3746301,183.0265444,36.20617543
+"76","Caluromys derbianus","Derby's woolly opossum","Didelphidae","Caluromys","derbianus",NA,"Omnivore",1.470808476,"LC",909.5952527,1118.524957,22.96952446
+"77","Caluromys lanatus","Brown-eared woolly opossum","Didelphidae","Caluromys","lanatus",NA,"Omnivore",1.470808476,"LC",413.3070991,538.0978528,30.19322774
+"78","Caluromys philander","Bare-tailed Woolly Opossum","Didelphidae","Caluromys","philander",NA,"Omnivore",1.470808476,"LC",401.2445668,542.4150604,35.18315396
+"79","Caluromysiops irrupta","Black-shouldered Opossum","Didelphidae","Caluromysiops","irrupta",NA,"Omnivore",1.33217904,"LC",247.1554706,350.2221892,41.70116822
+"80","Carollia benkeithi","Benkeith's short-tailed bat","Phyllostomidae","Carollia","benkeithi",NA,"FruiNect",0,"LC",248.2179697,351.6722198,41.67879151
+"81","Carollia brevicauda","Silky Short-tailed Bat","Phyllostomidae","Carollia","brevicauda",NA,"FruiNect",0,"LC",376.7856168,495.7561292,31.57512045
+"82","Carollia castanea","Chestnut Short-tailed Bat","Phyllostomidae","Carollia","castanea",NA,"FruiNect",0,"LC",626.2361391,766.7556193,22.43873699
+"83","Carollia manu","Manu short-tailed bat","Phyllostomidae","Carollia","manu",NA,"FruiNect",0,"LC",618.4575423,770.2917775,24.55047029
+"84","Carollia monohernandezi","Mono's short-tailed bat","Phyllostomidae","Carollia","monohernandezi",NA,"FruiNect",0,"DD",1383.812883,1716.446583,24.03747676
+"85","Carollia perspicillata","Seba's short-tailed bat","Phyllostomidae","Carollia","perspicillata",NA,"FruiNect",0,"LC",463.4231303,603.7921098,30.28959291
+"86","Cebus aequatorialis","Ecuadorian capuchin","Cebidae","Cebus","aequatorialis",NA,"Omnivore",1.748067349,"CR",1115.660001,1501.357696,34.57125776
+"87","Cebus albifrons","White-fronted Capuchin","Cebidae","Cebus","albifrons",NA,"Omnivore",1.748067349,"LC",67.19479469,102.0237025,51.83274676
+"88","Cebus cuscinus","Shock-headed capuchin","Cebidae","Cebus","cuscinus",NA,"Omnivore",1.748067349,"NT",350.195518,453.5817086,29.52241971
+"89","Cebus leucocephalus","Sierra de Perijá White-fronted Capuchin","Cebidae","Cebus","leucocephalus",NA,"Omnivore",1.748067349,"VU",1217.376964,1313.605855,7.904609183
+"90","Centurio senex","Wrinkle-faced Bat","Phyllostomidae","Centurio","senex",NA,"FruiNect",0,"LC",889.89039,1080.131305,21.37801651
+"91","Cerradomys maracajuensis","Maracaju Rice Rat","Cricetidae","Cerradomys","maracajuensis",NA,"PlantSeed",1.33217904,"LC",577.6823448,714.110084,23.6163941
+"92","Cerradomys subflavus","Terraced Rice Rat","Cricetidae","Cerradomys","subflavus",NA,"PlantSeed",1.33217904,"LC",847.1563452,1056.118345,24.66628511
+"93","Cheracebus lucifer","Yellow-handed Titi Monkey","Pitheciidae","Cheracebus","lucifer",NA,"Omnivore",1.029653014,"LC",107.109782,127.5440257,19.07785018
+"94","Cheracebus lugens","Black titi","Pitheciidae","Cheracebus","lugens",NA,"Omnivore",1.029653014,"LC",110.9003959,157.441902,41.96694309
+"95","Cheracebus medemi","Colombian Black-handed Titi","Pitheciidae","Cheracebus","medemi",NA,"Omnivore",1.029653014,"VU",268.534004,334.3687907,24.51636878
+"96","Chilomys instans","Colombian forest mouse","Cricetidae","Chilomys","instans",NA,"PlantSeed",1.279854226,"LC",918.3567364,1113.514085,21.25071233
+"97","Chiroderma salvini","Salvin's Big-eyed Bat","Phyllostomidae","Chiroderma","salvini",NA,"FruiNect",0,"LC",677.3345324,846.7787183,25.01632174
+"98","Chiroderma trinitatum","Little Big-eyed Bat","Phyllostomidae","Chiroderma","trinitatum",NA,"FruiNect",0,"LC",299.675842,400.6108781,33.68140566
+"99","Chiroderma villosum","Hairy Big-eyed Bat","Phyllostomidae","Chiroderma","villosum",NA,"FruiNect",0,"LC",354.6561033,468.8211982,32.19036523
+"100","Chiropotes chiropotes","Bearded Saki","Pitheciidae","Chiropotes","chiropotes",NA,"FruiNect",0.801818553,"LC",90.21462161,131.2164109,45.44916177
+"101","Choeroniscus godmani","Godman's long-tailed bat","Phyllostomidae","Choeroniscus","godmani",NA,"FruiNect",1.088899975,"LC",616.1505325,754.9041976,22.51944254
+"102","Choeroniscus minor","Lesser long-tongued bat","Phyllostomidae","Choeroniscus","minor",NA,"FruiNect",1.088899975,"LC",297.1475447,397.551645,33.78930838
+"103","Choeroniscus periosus","Greater Long-tailed Bat","Phyllostomidae","Choeroniscus","periosus",NA,"FruiNect",1.088899975,"VU",498.630574,594.032821,19.13285144
+"104","Choeronycteris mexicana","Choeronycteris mexicana","Phyllostomidae","Choeronycteris","mexicana",NA,"FruiNect",1.054920168,"NT",629.1288453,814.7552642,29.50531045
+"105","Choloepus didactylus","Linnaeus's two-toed sloth","Megalonychidae","Choloepus","didactylus",NA,"PlantSeed",0.610864302,"LC",141.1683344,195.1893034,38.26705842
+"106","Choloepus hoffmanni","Hoffmann's two-toed sloth","Megalonychidae","Choloepus","hoffmanni",NA,"PlantSeed",0.610864302,"LC",443.2811967,564.5047369,27.34687171
+"107","Chrotopterus auritus","Woolly False Vampire Bat","Phyllostomidae","Chrotopterus","auritus",NA,"Omnivore",1.366158848,"LC",446.8371083,584.2828254,30.75969173
+"108","Chrysocyon brachyurus","Maned Wolf","Canidae","Chrysocyon","brachyurus",NA,"Omnivore",1.359236701,"NT",610.7756347,798.3350156,30.70839278
+"109","Coendou bicolor","Bicolored-spined porcupine","Erethizontidae","Coendou","bicolor",NA,"PlantSeed",0.610864302,"LC",308.4184872,417.3228211,35.31057263
+"110","Coendou ichillus","Streaked dwarf porcupine","Erethizontidae","Coendou","ichillus",NA,"PlantSeed",0.610864302,"DD",126.4368673,196.2451006,55.21192893
+"111","Coendou melanurus","Black-tailed hairy dwarf porcupine","Erethizontidae","Coendou","melanurus",NA,"PlantSeed",0.610864302,"LC",123.9140924,179.0986858,44.53455798
+"112","Coendou mexicanus","Mexican hairy dwarf porcupine","Erethizontidae","Coendou","mexicanus",NA,"PlantSeed",0.610864302,"LC",934.9364928,1162.213856,24.30939056
+"113","Coendou prehensilis","Brazilian porcupine","Erethizontidae","Coendou","prehensilis",NA,"PlantSeed",0.610864302,"LC",412.1765337,544.9114944,32.20342495
+"114","Coendou pruinosus","Frosted hairy dwarf porcupine","Erethizontidae","Coendou","pruinosus",NA,"PlantSeed",0.610864302,"LC",1090.972786,1237.327739,13.41508737
+"115","Coendou quichua","Andean porcupine","Erethizontidae","Coendou","quichua",NA,"PlantSeed",0.610864302,"DD",840.8798541,1025.076183,21.9051899
+"116","Coendou rufescens","Stump-tailed porcupin","Erethizontidae","Coendou","rufescens",NA,"PlantSeed",0.610864302,"LC",864.2782643,1067.018266,23.45772306
+"117","Coendou spinosus","Paraguaian hairy dwarf porcupine","Erethizontidae","Coendou","spinosus",NA,"PlantSeed",0.610864302,"LC",870.1590585,1149.712269,32.12667939
+"118","Coendou vestitus","Brown hairy dwarf porcupine","Erethizontidae","Coendou","vestitus",NA,"PlantSeed",0.610864302,"DD",1014.160121,1249.478336,23.20326047
+"119","Conepatus leuconotus","American hog-nosed skunk","Mephitidae","Conepatus","leuconotus",NA,"Invertebrate",0.63903186,"LC",591.1634412,865.3229965,46.37627029
+"120","Conepatus semistriatus","Striped Hog-nosed Skunk","Mephitidae","Conepatus","semistriatus",NA,"Invertebrate",0.63903186,"LC",897.1251987,1102.378289,22.87897949
+"121","Cryptonanus chacoensis","Chacoan Mouse Opossum","Didelphidae","Cryptonanus","chacoensis",NA,"Omnivore",1.029653014,"LC",545.1990714,733.1229202,34.46884977
+"122","Cryptonanus unduaviensis","Unduavi gracile opossum","Didelphidae","Cryptonanus","unduaviensis",NA,"Omnivore",1.029653014,"DD",236.9279902,333.476501,40.75014974
+"123","Cuniculus paca","Agouti","Cuniculidae","Cuniculus","paca",NA,"PlantSeed",1.029653014,"LC",460.3720512,599.9306,30.31429652
+"124","Cuniculus taczanowskii","Mountain paca","Cuniculidae","Cuniculus","taczanowskii",NA,"PlantSeed",1.029653014,"NT",641.4107615,790.7602148,23.28452565
+"125","Dasyprocta coibae","Coiban Agouti","Dasyproctidae","Dasyprocta","coibae",NA,"Omnivore",0.943348392,"NT",266.2338331,310.4171179,16.59566868
+"126","Dasyprocta fuliginosa","Black agouti","Dasyproctidae","Dasyprocta","fuliginosa",NA,"Omnivore",0.943348392,"LC",146.818915,197.0998819,34.24692723
+"127","Dasyprocta guamara","Orinoco Agouti","Dasyproctidae","Dasyprocta","guamara",NA,"Omnivore",0.943348392,"NT",351.0823293,500.2990847,42.50192702
+"128","Dasyprocta kalinowskii","Kalinowski's agouti","Dasyproctidae","Dasyprocta","kalinowskii",NA,"Omnivore",0.943348392,"DD",371.6008737,485.4677817,30.64226057
+"129","Dasyprocta leporina","Red-rumped Agouti","Dasyproctidae","Dasyprocta","leporina",NA,"Omnivore",0.943348392,"LC",406.4566384,540.9723216,33.0947192
+"130","Dasyprocta mexicana","Mexican Agouti","Dasyproctidae","Dasyprocta","mexicana",NA,"Omnivore",0.943348392,"CR",1201.243127,1521.460718,26.65718395
+"131","Dasyprocta punctata","Central American agouti","Dasyproctidae","Dasyprocta","punctata",NA,"Omnivore",0.943348392,"LC",918.7563726,1093.484505,19.01789611
+"132","Dasyprocta variegata","Brown Agouti","Dasyproctidae","Dasyprocta","variegata",NA,"Omnivore",0.943348392,"DD",254.8242333,374.5326676,46.97686434
+"133","Delomys dorsalis","Striped Atlantic Forest rat","Cricetidae","Delomys","dorsalis",NA,"Omnivore",1.279854226,"LC",862.1396024,1185.830597,37.54507899
+"134","Dermanura anderseni","Andersen's fruit-eating bat","Phyllostomidae","Dermanura","anderseni",NA,"FruiNect",0.63903186,"LC",180.2102879,255.6166502,41.84353911
+"135","Dermanura bogotensis","Bogota fruit-eating bat","Phyllostomidae","Dermanura","bogotensis",NA,"FruiNect",0.63903186,"LC",539.9347396,654.5080618,21.21984637
+"136","Dermanura cinerea","Gervais's fruit-eating bat","Phyllostomidae","Dermanura","cinerea",NA,"FruiNect",0.63903186,"LC",517.0102986,672.7845979,30.12982522
+"137","Dermanura glauca","Silver fruit-eating bat","Phyllostomidae","Dermanura","glauca",NA,"FruiNect",0.63903186,"LC",356.9132462,462.8095933,29.67005238
+"138","Dermanura gnoma","Gnome fruit-eating bat","Phyllostomidae","Dermanura","gnoma",NA,"FruiNect",0.63903186,"LC",328.9011156,441.3092442,34.17687665
+"139","Dermanura phaeotis","Pygmy Fruit-eating Bat","Phyllostomidae","Dermanura","phaeotis",NA,"FruiNect",0.63903186,"LC",558.5875456,696.9009359,24.76127357
+"140","Dermanura rava",NA,"Phyllostomidae","Dermanura","rava",NA,"FruiNect",0.63903186,"LC",777.9906662,972.8450305,25.04584859
+"141","Dermanura rosenbergi","Rosenberg’s Fruit-eating Bat","Phyllostomidae","Dermanura","rosenbergi",NA,"FruiNect",0.63903186,"DD",566.9689893,757.0370013,33.52352871
+"142","Dermanura tolteca","Toltec Fruit-eating Bat","Phyllostomidae","Dermanura","tolteca",NA,"FruiNect",0.63903186,"LC",886.1529345,1107.488195,24.977095
+"143","Didelphis imperfecta","Guianan white-eared opossum","Didelphidae","Didelphis","imperfecta",NA,"Omnivore",0.693147181,"LC",86.68497434,129.0523933,48.87515887
+"144","Dinomys branickii","Pacarana","Dinomyidae","Dinomys","branickii",NA,"PlantSeed",0.673011667,"LC",368.888782,479.5503849,29.998636
+"145","Diplomys labilis","Rufous soft-furred spiny-rat","Echimyidae","Diplomys","labilis",NA,"Omnivore",0.693147181,"LC",515.8702163,601.2977617,16.55989098
+"146","Echimys saturnus","Dark spiny tree-rat ","Echimyidae","Echimys","saturnus",NA,"FruiNect",0.500402424,"DD",193.6561576,298.5252145,54.15219333
+"147","Ectophylla alba","Honduran white bat","Phyllostomidae","Ectophylla","alba",NA,"FruiNect",0,"NT",679.0786372,799.6779608,17.75925747
+"148","Eira barbara","Tayra","Mustelidae","Eira","barbara",NA,"VertFishScav",0.325082973,"LC",452.8132204,592.6528375,30.882406
+"149","Enchisthenes hartii","Velvety fruit-eating bat","Phyllostomidae","Enchisthenes","hartii",NA,"FruiNect",0.63903186,"LC",730.0644606,903.4324117,23.74693749
+"150","Eremoryzomys polius","Gray rice rat","Cricetidae","Eremoryzomys","polius",NA,"PlantSeed",1.33217904,"DD",756.6300028,964.7815474,27.5103477
+"151","Euryoryzomys legatus","Big-headed rice rat","Cricetidae","Euryoryzomys","legatus",NA,"PlantSeed",1.33217904,"LC",489.9160764,659.4131656,34.59716823
+"152","Euryoryzomys macconnelli","MacConnell's rice rat","Cricetidae","Euryoryzomys","macconnelli",NA,"PlantSeed",1.33217904,"LC",160.9145089,224.3844003,39.44323718
+"153","Euryoryzomys nitidus","Elegant rice rat","Cricetidae","Euryoryzomys","nitidus",NA,"PlantSeed",1.33217904,"LC",225.7054467,322.8752574,43.05160205
+"154","Euryoryzomys russatus","Euryoryzomys russatus","Cricetidae","Euryoryzomys","russatus",NA,"PlantSeed",1.33217904,"LC",990.3459057,1301.259294,31.39442351
+"155","Euryzygomatomys spinosus","Fischer's guiara","Echimyidae","Euryzygomatomys","spinosus",NA,"PlantSeed",1.029653014,"LC",975.1626405,1297.079447,33.01160168
+"156","Galictis vittata","Greater Grison","Mustelidae","Galictis","vittata",NA,"Omnivore",1.557113098,"LC",354.166638,468.3967084,32.25319897
+"157","Gardnerycteris crenulatum","Striped Hairy-nosed Bat","Phyllostomidae","Gardnerycteris","crenulatum",NA,"Omnivore",0.693147181,"LC",390.9181785,512.3696219,31.06825163
+"158","Gardnerycteris koepckeae","Koepcke's hairy-nosed bat","Phyllostomidae","Gardnerycteris","koepckeae",NA,"Invertebrate",0.897945725,"DD",174.8738584,251.8696515,44.02933281
+"159","Glironia venusta","Bushy-tailed Opossum","Didelphidae","Glironia","venusta",NA,"Omnivore",1.33217904,"LC",159.3055491,232.919525,46.20929799
+"160","Glossophaga commissarisi","Commissaris's long-tongued bat","Phyllostomidae","Glossophaga","commissarisi",NA,"FruiNect",1.088899975,"LC",409.0709437,518.1083312,26.65488447
+"161","Glossophaga leachii","Gray long-tongued bat ","Phyllostomidae","Glossophaga","leachii",NA,"FruiNect",1.088899975,"LC",1085.283946,1317.508367,21.39757262
+"162","Glossophaga soricina","Pallas's long-tongued bat","Phyllostomidae","Glossophaga","soricina",NA,"FruiNect",1.088899975,"LC",489.5127012,635.5095677,29.82493938
+"163","Glyphonycteris behnii","Behn's Big-eared Bat","Phyllostomidae","Glyphonycteris","behnii",NA,"Invertebrate",0.500402424,"DD",286.9296985,422.1667481,47.13246843
+"164","Glyphonycteris daviesi","Davies's big-eared bat","Phyllostomidae","Glyphonycteris","daviesi",NA,"Invertebrate",0.500402424,"LC",145.0309356,206.6217374,42.4673547
+"165","Glyphonycteris sylvestris","Tri-colored Big-eared Bat","Phyllostomidae","Glyphonycteris","sylvestris",NA,"Invertebrate",0.500402424,"LC",294.1434014,385.0558238,30.90751724
+"166","Gracilinanus aceramarcae","Aceramarca gracile mouse opossum","Didelphidae","Gracilinanus","aceramarcae",NA,"Omnivore",1.029653014,"LC",567.0816302,692.2352677,22.06977459
+"167","Gracilinanus agilis","Agile Gracile Opossum","Didelphidae","Gracilinanus","agilis",NA,"Omnivore",1.029653014,"LC",569.6190588,728.3772064,27.87093324
+"168","Gracilinanus dryas","Wood sprite gracile opossum","Didelphidae","Gracilinanus","dryas",NA,"Omnivore",1.029653014,"LC",1097.368584,1207.32329,10.01985181
+"169","Gracilinanus emiliae","Emilia's Gracile Opossum","Didelphidae","Gracilinanus","emiliae",NA,"Omnivore",1.029653014,"DD",428.7681434,563.2880921,31.37358752
+"170","Gracilinanus marica","Northern gracile opossum","Didelphidae","Gracilinanus","marica",NA,"Omnivore",1.029653014,"LC",1121.556893,1289.035416,14.93268191
+"171","Habromys chinanteco","Chinaneteco deer mouse","Cricetidae","Habromys","chinanteco",NA,"Omnivore",1.220607265,"CR",132.7402084,381.8421042,187.661221
+"172","Habromys delicatulus","Delicate deer mouse","Cricetidae","Habromys","delicatulus",NA,"Omnivore",1.220607265,"EN",1674.344934,2179.184775,30.15148374
+"173","Habromys ixtlani","Ixtlán deer mouse","Cricetidae","Habromys","ixtlani",NA,"Omnivore",1.220607265,"CR",203.5088964,517.9433866,154.5065085
+"174","Habromys lepturus","Zempoaltepec deer mouse","Cricetidae","Habromys","lepturus",NA,"Omnivore",1.220607265,"CR",311.758198,779.2037479,149.9384949
+"175","Habromys lophurus","Crested-tailed deer mouse","Cricetidae","Habromys","lophurus",NA,"Omnivore",1.220607265,"NT",1536.662615,1677.216377,9.146689735
+"176","Habromys schmidlyi","Schmidly's deer mouse","Cricetidae","Habromys","schmidlyi",NA,"Omnivore",1.220607265,"CR",1158.278641,1265.733826,9.277144662
+"177","Habromys simulatus","Jico deer mouse","Cricetidae","Habromys","simulatus",NA,"Omnivore",1.220607265,"CR",1407.253793,1771.320432,25.87071647
+"178","Handleyomys alfaroi","Alfaro's rice rat","Cricetidae","Handleyomys","alfaroi",NA,"PlantSeed",1.33217904,"LC",967.3610656,1195.243959,23.55717027
+"179","Handleyomys chapmani","Chapman's Handley's mouse","Cricetidae","Handleyomys","chapmani",NA,"PlantSeed",1.33217904,"VU",944.6496292,1272.93563,34.75214413
+"180","Handleyomys fuscatus","Dusky-footed Handley's mouse","Cricetidae","Handleyomys","fuscatus",NA,"PlantSeed",1.33217904,"LC",783.5222809,942.9249546,20.34437023
+"181","Handleyomys intectus","Colombian rice rat","Cricetidae","Handleyomys","intectus",NA,"PlantSeed",1.33217904,"LC",1235.228035,1534.293358,24.21134513
+"182","Handleyomys rhabdops","Highland rice rat","Cricetidae","Handleyomys","rhabdops",NA,"PlantSeed",1.33217904,"EN",1274.946828,1718.756317,34.81003905
+"183","Handleyomys rostratus","Long-nosed oryzomys","Cricetidae","Handleyomys","rostratus",NA,"PlantSeed",1.33217904,"LC",871.9137278,1105.169497,26.75216153
+"184","Handleyomys saturatior","Cloud forest rice rat","Cricetidae","Handleyomys","saturatior",NA,"PlantSeed",1.33217904,"LC",1202.967675,1438.337707,19.56578195
+"185","Herpailurus yagouaroundi","Jaguarundi","Felidae","Herpailurus","yagouaroundi",NA,"VertFishScav",0.63903186,"LC",465.5167423,607.3797018,30.47429804
+"186","Hyladelphys kalinowskii","Kalinowski's Mouse Opossum","Didelphidae","Hyladelphys","kalinowskii",NA,"Invertebrate",1.088899975,"LC",96.36802598,136.6267703,41.77603922
+"187","Hylaeamys megacephalus","Azara's broad-headed oryzomys","Cricetidae","Hylaeamys","megacephalus",NA,"PlantSeed",1.33217904,"LC",327.8464155,447.5487892,36.51172257
+"188","Hylaeamys perenensis","Western amazonian Oryzomys","Cricetidae","Hylaeamys","perenensis",NA,"PlantSeed",1.33217904,"LC",96.12358801,132.0317165,37.35620904
+"189","Hylaeamys tatei","Tate's oryzomys","Cricetidae","Hylaeamys","tatei",NA,"PlantSeed",1.33217904,"DD",907.699868,1262.605544,39.09945225
+"190","Hylaeamys yunganus","Amazonian oryzomys","Cricetidae","Hylaeamys","yunganus",NA,"PlantSeed",1.33217904,"LC",155.6834206,230.4049857,47.99583975
+"191","Hylonycteris underwoodi","Underwood's long-tongued bat","Phyllostomidae","Hylonycteris","underwoodi",NA,"FruiNect",0.943348392,"LC",991.4530342,1215.498159,22.59765384
+"192","Isothrix barbarabrownae","Barbara Brown's Brush-tailed Rat","Echimyidae","Isothrix","barbarabrownae",NA,"PlantSeed",1.029653014,"DD",235.306161,462.7455774,96.65680464
+"193","Isothrix orinoci","Orinoco Brush-tailed Rat","Echimyidae","Isothrix","orinoci",NA,"PlantSeed",1.029653014,"DD",84.22163482,110.7715964,31.523921
+"194","Isthmomys flavidus","Yellow isthmus rat","Cricetidae","Isthmomys","flavidus",NA,"Omnivore",1.220607265,"NT",820.2070644,923.239053,12.5617046
+"195","Isthmomys pirrensis","Mount Pirri isthmus rat","Cricetidae","Isthmomys","pirrensis",NA,"Omnivore",1.220607265,"LC",181.3830003,210.0257904,15.79133106
+"196","Juliomys pictipes","Lesser Wilfred's mouse","Cricetidae","Juliomys","pictipes",NA,"PlantSeed",0.673011667,"LC",1002.620566,1320.448719,31.69974399
+"197","Lagothrix flavicauda","Yellow-tailed woolly monkey","Atelidae","Lagothrix","flavicauda",NA,"FruiNect",0.801818553,"CR",349.5556773,445.7626333,27.52264153
+"198","Lagothrix lagothricha","Common Woolly Monkey","","Lagothrix","lagrothricha",NA,"FruiNect",0.940447989,"VU",120.5978397,170.8398672,41.66080223
+"199","Lagothrix lagothricha","Common Woolly Monkey","","Lagothrix","lagrothricha",NA,"FruiNect",0.940447989,"VU",120.5978397,170.8398672,41.66080223
+"200","Lagothrix lagothricha","Red Woolly Monkey","Atelidae","Lagothrix","lagrothricha","poeppigii","FruiNect",0.801818553,"EN",120.5978397,170.8398672,41.66080223
+"201","Lagothrix lagothricha","Geoffroy's Woolly Monkey","Atelidae","Lagothrix","lagothricha","cana","FruiNect",0.801818553,"EN",120.5978397,170.8398672,41.66080223
+"202","Lagothrix lagothricha","Colombian woolly monkey","Atelidae","Lagothrix","lagrothricha","lugens","FruiNect",0.801818553,"CR",120.5978397,170.8398672,41.66080223
+"203","Lampronycteris brachyotis","Yellow-throated Big-eared Bat","Phyllostomidae","Lampronycteris","brachyotis",NA,"Invertebrate",0.500402424,"LC",261.1747084,344.8831825,32.05075816
+"204","Lenoxus apicalis","Andean rat","Cricetidae","Lenoxus","apicalis",NA,"PlantSeed",1.279854226,"LC",446.9633344,559.6624073,25.21438879
+"205","Leontocebus fuscicollis","Saddleback Tamarin","Cebidae","Leontocebus","fuscicollis",NA,"FruiNect",1.088899975,"LC",71.82983054,91.30430091,27.11195366
+"206","Leontocebus nigricollis","Black-mantled tamarin","Cebidae","Leontocebus","nigricollis",NA,"FruiNect",1.088899975,"LC",259.0941081,349.0885355,34.7342624
+"207","Leontocebus tripartitus","Golden-mantle Saddleback Tamarin","Cebidae","Leontocebus","tripartitus",NA,"FruiNect",1.088899975,"NT",91.48019862,144.7810909,58.26495034
+"208","Leopardus wiedii","Margay","Felidae","Leopardus","wiedii",NA,"VertFishScav",0.500402424,"NT",432.7801707,567.4966065,31.12814424
+"209","Leptonycteris curasoae","Southern long-nosed bat","Phyllostomidae","Leptonycteris","curasoae",NA,"FruiNect",1.054920168,"VU",954.2722353,1128.628726,18.27114779
+"210","Lestoros inca","Incan shrew opossum","Caenolestidae","Lestoros","inca",NA,"Invertebrate",0.940447989,"LC",316.8354531,425.0785349,34.16381619
+"211","Lichonycteris degener","Pale brown long-nosed bat","Phyllostomidae","Lichonycteris","degener",NA,"FruiNect",0.693147181,"LC",431.9678959,552.9921247,28.01694988
+"212","Lichonycteris obscura","Dark long-tongued bat","Phyllostomidae","Lichonycteris","obscura",NA,"FruiNect",0.693147181,"LC",854.9359729,1047.306252,22.50113281
+"213","Lionycteris spurrelli","Chestnut long-tongued bat","Phyllostomidae","Lionycteris","spurrelli",NA,"FruiNect",0.897945725,"LC",282.1547333,369.5739631,30.98272665
+"214","Lonchophylla cadenai",NA,"Phyllostomidae","Lonchophylla","cadenai",NA,"FruiNect",1.088899975,"DD",630.7743232,761.3394005,20.6991744
+"215","Lonchophylla chocoana","Chocoan long-tongued bat","Phyllostomidae","Lonchophylla","chocoana",NA,"FruiNect",1.088899975,"DD",373.4319025,441.6501836,18.26793071
+"216","Lonchophylla concava","Goldman's nectar bat","Phyllostomidae","Lonchophylla","concava",NA,"FruiNect",1.088899975,"LC",955.9389418,1225.446741,28.192993
+"217","Lonchophylla fornicata",NA,"Phyllostomidae","Lonchophylla","fornicata",NA,"FruiNect",1.088899975,"DD",675.310784,817.0893257,20.99456206
+"218","Lonchophylla handleyi","Handley's nectar bat","Phyllostomidae","Lonchophylla","handleyi",NA,"FruiNect",1.088899975,"LC",293.1722234,403.4764731,37.62438626
+"219","Lonchophylla orcesi","Orcés's long-tongued bat ","Phyllostomidae","Lonchophylla","orcesi",NA,"FruiNect",1.088899975,"DD",86.80290418,134.9406343,55.45635894
+"220","Lonchophylla orienticollina","Eastern Cordilleran nectar bat","Phyllostomidae","Lonchophylla","orienticollina",NA,"FruiNect",1.088899975,"DD",1031.60045,1193.927763,15.73548298
+"221","Lonchophylla pattoni","Patton's Nectar Bat","Phyllostomidae","Lonchophylla","pattoni",NA,"FruiNect",1.088899975,"DD",477.8563671,663.5760266,38.86516373
+"222","Lonchophylla robusta","Orange nectar bat ","Phyllostomidae","Lonchophylla","robusta",NA,"FruiNect",1.088899975,"LC",866.7527236,1044.038706,20.45404384
+"223","Lonchophylla thomasi","Thomas's nectar bat","Phyllostomidae","Lonchophylla","thomasi",NA,"FruiNect",1.088899975,"LC",292.9790113,390.7275432,33.36366364
+"224","Lophostoma brasiliense","Pygmy round-eared bat","Phyllostomidae","Lophostoma","brasiliense",NA,"Invertebrate",0.325082973,"LC",341.3182795,441.9064244,29.47048282
+"225","Lophostoma carrikeri","Carriker's Round-eared Bat","Phyllostomidae","Lophostoma","carrikeri",NA,"Invertebrate",0.325082973,"LC",178.2655534,248.4950275,39.39598686
+"226","Lophostoma evotis","Davis's Round-eared Bat","Phyllostomidae","Lophostoma","evotis",NA,"Invertebrate",0.325082973,"LC",794.6895651,1046.519865,31.68914135
+"227","Lophostoma kalkoae","Kalko's round-eared bat","Phyllostomidae","Lophostoma","kalkoae",NA,"Invertebrate",0.325082973,"DD",1477.574145,1753.818078,18.69577472
+"228","Lophostoma occidentalis","Western round-eared bat ","Phyllostomidae","Lophostoma","occidentalis",NA,"Invertebrate",0.325082973,"NT",922.8508832,1183.708342,28.26647985
+"229","Lophostoma silvicolum","Lophostoma silvicolum","Phyllostomidae","Lophostoma","silvicolum",NA,"Invertebrate",0.325082973,"LC",309.2765667,405.3399871,31.06068507
+"230","Lycalopex culpaeus","Culpeo","Canidae","Lycalopex","culpaeus",NA,"VertFishScav",0.940447989,"LC",443.2934532,599.261237,35.18386808
+"231","Macrotus waterhousii","Waterhouse's Leaf-nosed Bat","Phyllostomidae","Macrotus","waterhousii",NA,"Omnivore",0.693147181,"LC",971.9730531,1232.813462,26.83617702
+"232","Makalata didelphoides","Red-nosed Armored Tree-rat","Echimyidae","Makalata","didelphoides",NA,"Omnivore",0.693147181,"LC",249.0519676,359.0260945,44.15710021
+"233","Makalata macrura","Long-tailed Armored Tree-rat","Echimyidae","Makalata","macrura",NA,"FruiNect",0.500402424,"LC",118.3542962,162.2160573,37.05971173
+"234","Marmosa alstoni","Alston's mouse opossum","Didelphidae","Marmosa","alstoni",NA,"Invertebrate",0.325082973,"LC",786.1808501,927.1834163,17.9351311
+"235","Marmosa andersoni","Heavy-browed mouse opossum","Didelphidae","Marmosa","andersoni",NA,"Omnivore",1.418483662,"DD",114.7091224,211.1606247,84.08354992
+"236","Marmosa constantiae","White-bellied woolly mouse opossum","Didelphidae","Marmosa","constantiae",NA,"Invertebrate",0.325082973,"LC",337.2287267,470.2759335,39.45310596
+"237","Marmosa demerarae","Woolly Mouse Opossum","Didelphidae","Marmosa","demerarae",NA,"Invertebrate",0.325082973,"LC",330.8223666,443.638346,34.10167835
+"238","Marmosa lepida","Little Rufous Mouse Opossum","Didelphidae","Marmosa","lepida",NA,"Omnivore",1.418483662,"LC",128.6455123,181.1887584,40.84343495
+"239","Marmosa mexicana","Mexican mouse opossum","Didelphidae","Marmosa","mexicana",NA,"Omnivore",1.418483662,"LC",908.997853,1115.456935,22.71282393
+"240","Marmosa murina","Linnaeus's Mouse Opossum","Didelphidae","Marmosa","murina",NA,"Omnivore",1.418483662,"LC",272.4484606,368.9549622,35.42192951
+"241","Marmosa paraguayana","Tate's Woolly Mouse Opossum","Didelphidae","Marmosa","paraguayana",NA,"Omnivore",1.366158848,"LC",939.7687185,1244.456081,32.42152637
+"242","Marmosa phaea","Little woolly mouse opossum","Didelphidae","Marmosa","phaea",NA,"Invertebrate",0.325082973,"VU",659.818246,905.631886,37.25475029
+"243","Marmosa quichua","Quechuan mouse opossum","Didelphidae","Marmosa","quichua",NA,"Omnivore",1.418483662,"LC",287.0297136,411.2291113,43.27057162
+"244","Marmosa regina","Bare-tailed woolly mouse opossum","Didelphidae","Marmosa","regina",NA,"Invertebrate",0.325082973,"LC",199.5774847,272.8385216,36.70806704
+"245","Marmosa robinsoni","Robinson's mouse opossum","Didelphidae","Marmosa","robinsoni",NA,"Omnivore",1.418483662,"LC",1044.501885,1210.995039,15.93995731
+"246","Marmosa rubra","Red Mouse Opossum","Didelphidae","Marmosa","rubra",NA,"Omnivore",1.418483662,"DD",172.2545644,253.8668817,47.37889973
+"247","Marmosa tyleriana","Tyler's mouse opossum","Didelphidae","Marmosa","tyleriana",NA,"Omnivore",1.418483662,"DD",56.88226613,89.74389743,57.77131177
+"248","Marmosops bishopi","Bishop's slender opossum","Didelphidae","Marmosops","bishopi",NA,"Omnivore",0.693147181,"LC",223.886283,346.1902768,54.62772986
+"249","Marmosops caucae",NA,"Didelphidae","Marmosops","caucae",NA,"Omnivore",0.693147181,"LC",887.4652259,1083.986305,22.1440878
+"250","Marmosops cracens","Slim-faced Slender Mouse Opossum","Didelphidae","Marmosops","cracens",NA,"Omnivore",0.693147181,"DD",1379.749086,1319.113438,-4.394686617
+"251","Marmosops creightoni","Creighton's slender opossum","Didelphidae","Marmosops","creightoni",NA,"Omnivore",0.693147181,"DD",551.5684862,744.0749344,34.90164014
+"252","Marmosops fuscatus","Dusky slender opossum","Didelphidae","Marmosops","fuscatus",NA,"Omnivore",0.693147181,"DD",1299.876326,1472.214198,13.25802068
+"253","Marmosops handleyi","Handley's slender opossum","Didelphidae","Marmosops","handleyi",NA,"Omnivore",0.693147181,"CR",896.9515591,1101.653888,22.82200487
+"254","Marmosops impavidus","Tschudi's slender opossum","Didelphidae","Marmosops","impavidus",NA,"Omnivore",0.693147181,"LC",241.4517354,330.8655653,37.0317611
+"255","Marmosops invictus","Panama slender opossum","Didelphidae","Marmosops","invictus",NA,"Omnivore",0.693147181,"LC",800.6848934,918.7389233,14.74413104
+"256","Marmosops juninensis","Junin slender opossum","Didelphidae","Marmosops","juninensis",NA,"Omnivore",0.693147181,"VU",629.8515445,756.205123,20.06085078
+"257","Marmosops neblina","Neblina slender opossum","Didelphidae","Marmosops","neblina",NA,"Omnivore",0.693147181,"LC",80.98633748,111.7638482,38.00333696
+"258","Marmosops noctivagus","White-bellied slender opossum","Didelphidae","Marmosops","noctivagus",NA,"Omnivore",0.693147181,"LC",142.0574121,198.8105142,39.95082075
+"259","Marmosops pakaraimae",NA,"Didelphidae","Marmosops","pakaraimae",NA,"Omnivore",0.693147181,"VU",162.091867,227.0629146,40.08285471
+"260","Marmosops parvidens","Delicate slender opossum","Didelphidae","Marmosops","parvidens",NA,"Omnivore",0.693147181,"LC",104.0045592,150.9674926,45.15468721
+"261","Marmosops pinheiroi","Pinheiro's Slender Opossum","Didelphidae","Marmosops","pinheiroi",NA,"Omnivore",0.693147181,"LC",201.2037337,275.0004952,36.67763023
+"262","Mazama gouazoubira","Gray Brocket","Cervidae","Mazama","gouazoubira",NA,"PlantSeed",1.029653014,"LC",682.134173,879.2848133,28.9020325
+"263","Mazama nemorivaga","Amazonian Brown Brocket","Cervidae","Mazama","nemorivaga",NA,"PlantSeed",1.029653014,"LC",240.4435759,331.8345258,38.0093124
+"264","Megadontomys cryophilus","Oaxaca giant deer mouse","Cricetidae","Megadontomys","cryophilus",NA,"FruiNect",0.500402424,"EN",346.3322019,593.3658723,71.32853054
+"265","Megadontomys nelsoni","Nelson's giant deer mouse","Cricetidae","Megadontomys","nelsoni",NA,"FruiNect",0.500402424,"EN",1184.269196,1511.929311,27.66770564
+"266","Megadontomys thomasi","Thomas's giant deer mouse","Cricetidae","Megadontomys","thomasi",NA,"FruiNect",0.500402424,"EN",569.2791435,821.1756721,44.24833256
+"267","Melanomys caliginosus","Dusky melanomys","Cricetidae","Melanomys","caliginosus",NA,"PlantSeed",1.279854226,"LC",876.5016121,1048.969945,19.67689858
+"268","Melanomys robustulus","Robust Dark Rice Rat","Cricetidae","Melanomys","robustulus",NA,"PlantSeed",1.279854226,"LC",364.1353418,551.109437,51.34741776
+"269","Mesomys hispidus","Ferreira's spiny tree-rat","Echimyidae","Mesomys","hispidus",NA,"PlantSeed",1.029653014,"LC",132.490109,189.3479681,42.91479533
+"270","Mesomys leniceps","Woolly-headed spiny tree-rat","Echimyidae","Mesomys","leniceps",NA,"PlantSeed",1.029653014,"DD",499.1807793,577.5296031,15.69548088
+"271","Mesophylla macconnelli","MacConnell's bat","Phyllostomidae","Mesophylla","macconnelli",NA,"FruiNect",0.325082973,"LC",294.569411,393.735552,33.66477895
+"272","Metachirus nudicaudatus","Brown Four-eyed Opossum","Didelphidae","Metachirus","nudicaudatus",NA,"Omnivore",1.557113098,"LC",374.559032,497.188365,32.73965449
+"273","Mico melanurus","Black-tailed Marmoset","Cebidae","Mico","melanurus",NA,"FruiNect",1.33217904,"LC",313.1234145,453.6127687,44.86708681
+"274","Micronycteris brosseti","Brosset's big-eared bat ","Phyllostomidae","Micronycteris","brosseti",NA,"Invertebrate",0.500402424,"DD",123.0994647,172.3600118,40.01686542
+"275","Micronycteris giovanniae",NA,"Phyllostomidae","Micronycteris","giovanniae",NA,"Invertebrate",0.500402424,"DD",1087.6584,1504.228982,38.29976239
+"276","Micronycteris hirsuta","Hairy big-eared bat","Phyllostomidae","Micronycteris","hirsuta",NA,"Invertebrate",0.500402424,"LC",338.8889164,428.2098322,26.35698939
+"277","Micronycteris megalotis","Little big-eared bat","Phyllostomidae","Micronycteris","megalotis",NA,"Invertebrate",0.500402424,"LC",405.7061673,533.0180138,31.38030839
+"278","Micronycteris microtis","Common big-eared bat","Phyllostomidae","Micronycteris","microtis",NA,"Invertebrate",0.500402424,"LC",319.8206773,408.7137859,27.79467212
+"279","Micronycteris minuta","White-bellied big-eared bat","Phyllostomidae","Micronycteris","minuta",NA,"Invertebrate",0.500402424,"LC",420.9013794,547.9147318,30.17651131
+"280","Micronycteris schmidtorum","Schmidts's big-eared bat","Phyllostomidae","Micronycteris","schmidtorum",NA,"Invertebrate",0.500402424,"LC",409.4827629,516.3405543,26.09579723
+"281","Micronycteris yatesi","Yates's big-eared bat","Phyllostomidae","Micronycteris","yatesi",NA,"Invertebrate",0.500402424,"DD",582.075643,749.8398598,28.82172083
+"282","Microryzomys minutus","Forest small rice rat","Cricetidae","Microryzomys","minutus",NA,"PlantSeed",1.279854226,"LC",695.2275323,872.1991396,25.45520698
+"283","Microsciurus alfari","Central American dwarf squirrel","Sciuridae","Microsciurus","alfari",NA,"Omnivore",0.693147181,"LC",843.0084605,999.6752154,18.58424468
+"284","Microsciurus flaviventer","Amazon dwarf squirrel","Sciuridae","Microsciurus","flaviventer",NA,"Omnivore",0.693147181,"LC",136.1317393,192.6819867,41.54082483
+"285","Microsciurus mimulus","Western dwarf squirrel","Sciuridae","Microsciurus","mimulus",NA,"Omnivore",0.693147181,"LC",648.4299914,757.6483393,16.84350653
+"286","Microsciurus santanderensis","Santander dwarf squirrel","Sciuridae","Microsciurus","santanderensis",NA,"Omnivore",0.693147181,"DD",896.3420441,1094.182976,22.07203526
+"287","Mimon bennettii","Golden Bat","Phyllostomidae","Mimon","bennettii",NA,"Omnivore",1.366158848,"LC",608.307065,774.3150685,27.29016528
+"288","Mimon cozumelae","Cozumelan golden bat","Phyllostomidae","Mimon","cozumelae",NA,"Invertebrate",0.897945725,"LC",810.0102546,1000.050017,23.461402
+"289","Mindomys hammondi","Hammond's rice rat","Cricetidae","Mindomys","hammondi",NA,"PlantSeed",1.33217904,"EN",1020.009732,1458.372854,42.97636662
+"290","Monodelphis adusta","Sepia short-tailed opossum","Didelphidae","Monodelphis","adusta",NA,"Omnivore",1.609437912,"LC",436.6961978,568.0517522,30.07939043
+"291","Monodelphis brevicaudata","Northern Red-sided Opossum","Didelphidae","Monodelphis","brevicaudata",NA,"Omnivore",1.609437912,"LC",118.8915363,167.1298894,40.57341217
+"292","Monodelphis dimidiata","Southern Short-tailed Opossum","Didelphidae","Monodelphis","dimidiata",NA,"Omnivore",1.609437912,"LC",893.128117,1162.54314,30.16532762
+"293","Monodelphis domestica","Grey Short-tailed Opossum","Didelphidae","Monodelphis","domestica",NA,"Omnivore",1.609437912,"LC",557.1229424,730.0284535,31.03543185
+"294","Monodelphis emiliae","Emilia's Short-tailed Opossum","Didelphidae","Monodelphis","emiliae",NA,"Omnivore",1.609437912,"LC",144.3710673,198.3686624,37.40195048
+"295","Monodelphis glirina","Amazonian Red-sided Opossum","Didelphidae","Monodelphis","glirina",NA,"Omnivore",1.609437912,"LC",192.3589966,295.0825793,53.40201627
+"296","Monodelphis handleyi","Handley's Short-tailed Opossum","Didelphidae","Monodelphis","handleyi",NA,"Omnivore",1.029653014,"DD",536.1064478,681.5974254,27.13844951
+"297","Monodelphis kunsi","Pygmy Short-tailed Opossum","Didelphidae","Monodelphis","kunsi",NA,"Omnivore",1.609437912,"LC",472.1697976,637.4180763,34.99763848
+"298","Monodelphis osgoodi","Osgood's short-tailed opossum","Didelphidae","Monodelphis","osgoodi",NA,"Omnivore",1.609437912,"LC",456.1195088,603.9640826,32.41356068
+"299","Monodelphis palliolata","Hooded Red-sided Opossum","Didelphidae","Monodelphis","palliolata",NA,"Omnivore",1.609437912,"LC",1118.284166,1251.471811,11.91000009
+"300","Monodelphis peruviana","Peruvian short-tailed opossum","Didelphidae","Monodelphis","peruviana",NA,"Omnivore",1.609437912,"LC",329.8218852,442.417216,34.13822307
+"301","Monodelphis reigi","Reig's short-tailed opossum","Didelphidae","Monodelphis","reigi",NA,"Omnivore",1.609437912,"VU",279.3138791,563.4973958,101.7434284
+"302","Monodelphis ronaldi","Ronald's Opossum","Didelphidae","Monodelphis","ronaldi",NA,"Omnivore",1.609437912,"LC",10.54522091,33.83197073,220.82752
+"303","Monodelphis scalops","Long-nosed Short-tailed Opossum","Didelphidae","Monodelphis","scalops",NA,"Omnivore",1.609437912,"LC",1038.299932,1373.639514,32.29698586
+"304","Myoprocta pratti","Green Acouchi","Dasyproctidae","Myoprocta","pratti",NA,"Omnivore",1.054920168,"LC",144.1059528,199.8891464,38.70984682
+"305","Nasua narica","White-nosed Coati","Procyonidae","Nasua","narica",NA,"FruiNect",0.801818553,"LC",689.6073238,901.4368703,30.71741543
+"306","Nasua nasua","South American Coati","Procyonidae","Nasua","nasua",NA,"FruiNect",0.801818553,"LC",334.3598614,458.5369564,37.13875654
+"307","Nasuella meridensis","Eastern mountain coati","Procyonidae","Nasuella","meridensis",NA,"FruiNect",0.801818553,"EN",976.7800796,1069.170887,9.458711255
+"308","Nasuella olivacea","Western mountain coati","Procyonidae","Nasuella","olivacea",NA,"FruiNect",0.801818553,"NT",874.0111571,1074.62953,22.95375428
+"309","Neacomys guianae","Guiana Bristly Mouse","Cricetidae","Neacomys","guianae",NA,"PlantSeed",1.33217904,"LC",130.6435961,183.3578996,40.34970339
+"310","Neacomys musseri","Musser's bristly mous","Cricetidae","Neacomys","musseri",NA,"PlantSeed",1.279854226,"LC",62.5542787,99.40489194,58.9098204
+"311","Neacomys paracou","Paracou neacomys","Cricetidae","Neacomys","paracou",NA,"PlantSeed",1.279854226,"LC",108.7318207,161.9754029,48.96780163
+"312","Neacomys pictus","Painted neacomys","Cricetidae","Neacomys","pictus",NA,"PlantSeed",1.33217904,"DD",220.5408997,232.1927414,5.283302008
+"313","Neacomys spinosus","Common neacomys","Cricetidae","Neacomys","spinosus",NA,"PlantSeed",1.33217904,"LC",243.8745896,347.8921419,42.65206654
+"314","Neacomys tenuipes","Narrow-footed bristly mouse","Cricetidae","Neacomys","tenuipes",NA,"PlantSeed",1.33217904,"LC",944.0139599,1090.797408,15.54886409
+"315","Neotomodon alstoni","Mexican volcano mouse","Cricetidae","Neotomodon","alstoni",NA,"Omnivore",1.220607265,"LC",1483.171514,1863.231993,25.62485023
+"316","Nephelomys albigularis","Tomes's rice rat","Cricetidae","Nephelomys","albigularis",NA,"PlantSeed",1.33217904,"LC",760.4906282,939.339434,23.51755552
+"317","Nephelomys auriventer","Ecuadorian rice rat","Cricetidae","Nephelomys","auriventer",NA,"PlantSeed",1.33217904,"LC",451.8763569,624.8455945,38.27800128
+"318","Nephelomys caracolus","Caracol rice rat","Cricetidae","Nephelomys","caracolus",NA,"PlantSeed",1.33217904,"LC",1783.99371,1883.803745,5.594752648
+"319","Nephelomys devius","Boquete rice rat","Cricetidae","Nephelomys","devius",NA,"PlantSeed",1.33217904,"LC",908.6344783,1013.849495,11.57946563
+"320","Nephelomys keaysi","Keays's rice rat","Cricetidae","Nephelomys","keaysi",NA,"PlantSeed",1.33217904,"LC",485.5729599,648.7116081,33.59714433
+"321","Nephelomys levipes","light-footed rice rat","Cricetidae","Nephelomys","levipes",NA,"PlantSeed",1.33217904,"LC",598.8963238,791.9224451,32.23030659
+"322","Nephelomys meridensis","Mérida oryzomys","Cricetidae","Nephelomys","meridensis",NA,"PlantSeed",1.33217904,"LC",962.7887068,1044.161477,8.451778588
+"323","Nyctomys sumichrasti","Sumichrast's vesper rat","Cricetidae","Nyctomys","sumichrasti",NA,"PlantSeed",1.054920168,"LC",994.7309702,1199.688856,20.60435357
+"324","Octodon bridgesi","Bridges's Degu","Octodontidae","Octodon","bridgesi",NA,"PlantSeed",0.950270539,"VU",710.7186557,952.1887003,33.97547575
+"325","Octodon pacificus","Pacific degu","Octodontidae","Octodon","pacificus",NA,"PlantSeed",0.950270539,"CR",940.5732221,1498.273983,59.29371025
+"326","Oecomys auyantepui","Guianan oecomys","Cricetidae","Oecomys","auyantepui",NA,"Omnivore",0.693147181,"LC",104.258755,156.7504879,50.34755394
+"327","Oecomys bicolor","White-bellied oecomys","Cricetidae","Oecomys","bicolor",NA,"Omnivore",0.693147181,"LC",255.404869,350.8813454,37.38240259
+"328","Oecomys concolor","Unicolored oecomys","Cricetidae","Oecomys","concolor",NA,"Omnivore",0.693147181,"LC",236.3935292,319.6205345,35.20697269
+"329","Oecomys flavicans","Tawny oecomys","Cricetidae","Oecomys","flavicans",NA,"Omnivore",0.693147181,"LC",1235.150119,1356.376757,9.814729135
+"330","Oecomys mamorae","Mamore arboreal rice rat","Cricetidae","Oecomys","mamorae",NA,"Omnivore",0.693147181,"LC",330.4006988,472.4375256,42.98926346
+"331","Oecomys paricola","Brazilian oecomys","Cricetidae","Oecomys","paricola",NA,"Omnivore",0.693147181,"DD",198.3828105,304.0489706,53.26376804
+"332","Oecomys phaeotis","Dusky arboreal rice rat","Cricetidae","Oecomys","phaeotis",NA,"Omnivore",0.693147181,"LC",242.9249894,376.8172314,55.11670178
+"333","Oecomys rex","King arboreal rice rat","Cricetidae","Oecomys","rex",NA,"Omnivore",0.693147181,"LC",126.3913381,183.6323349,45.2887023
+"334","Oecomys roberti","Robert's oecomys","Cricetidae","Oecomys","roberti",NA,"Omnivore",0.693147181,"LC",166.9028607,254.8844786,52.71426596
+"335","Oecomys rutilus","Reddish oecomys","Cricetidae","Oecomys","rutilus",NA,"Omnivore",0.693147181,"LC",97.1900212,145.9640474,50.18419139
+"336","Oecomys speciosus","Savannah oecomys","Cricetidae","Oecomys","speciosus",NA,"Omnivore",0.693147181,"LC",747.0316308,922.3081465,23.4630648
+"337","Oecomys trinitatis","Long-furred oecomys","Cricetidae","Oecomys","trinitatis",NA,"Omnivore",0.693147181,"LC",498.842469,641.4633944,28.59037357
+"338","Olallamys albicauda","White-tailed olalla rat","Echimyidae","Olallamys","albicauda",NA,"PlantSeed",1.029653014,"DD",1490.722445,1840.924293,23.49208927
+"339","Olallamys edax","Greedy olalla rat","Echimyidae","Olallamys","edax",NA,"PlantSeed",1.029653014,"DD",990.3147264,1091.016638,10.16867757
+"340","Oligoryzomys brendae","Brenda's colilargo","Cricetidae","Oligoryzomys","brendae",NA,"Omnivore",1.088899975,"DD",528.4400997,692.1638185,30.98245551
+"341","Oligoryzomys destructor","Tschudi's colilargo","Cricetidae","Oligoryzomys","destructor",NA,"Omnivore",1.088899975,"LC",605.6320486,795.9851941,31.43049412
+"342","Oligoryzomys fulvescens","Fulvous colilargo","Cricetidae","Oligoryzomys","fulvescens",NA,"Omnivore",1.088899975,"LC",579.0995548,727.4742741,25.62162553
+"343","Oligoryzomys griseolus","Grizzled colilargo","Cricetidae","Oligoryzomys","griseolus",NA,"Omnivore",1.088899975,"LC",996.364074,1167.949193,17.22112666
+"344","Oligoryzomys microtis","Small-eared colilargo","Cricetidae","Oligoryzomys","microtis",NA,"Omnivore",1.088899975,"LC",182.6324255,272.9364276,49.44576615
+"345","Oligoryzomys vegetus","Sprightly pygmy rice rat","Cricetidae","Oligoryzomys","vegetus",NA,"Omnivore",1.088899975,"LC",826.0881379,928.4900952,12.39600867
+"346","Oreoryzomys balneator","Peruvian Rice Rat","Cricetidae","Oreoryzomys","balneator",NA,"PlantSeed",1.33217904,"DD",593.7519777,831.8953154,40.10821801
+"347","Oryzomys dimidiatus","Nicaraguan oryzomys","Cricetidae","Oryzomys","dimidiatus",NA,"PlantSeed",1.33217904,"DD",493.9399014,532.6601788,7.839066506
+"348","Otonyctomys hatti","Hatt's vesper mouse","Cricetidae","Otonyctomys","hatti",NA,"PlantSeed",1.279854226,"LC",467.4410804,637.5748898,36.39684584
+"349","Ototylomys phyllotis","Big-eared climbing rat","Cricetidae","Ototylomys","phyllotis",NA,"Omnivore",0.693147181,"LC",871.532752,1050.04637,20.48272058
+"350","Pattonomys carrikeri","Carriker's Speckled Tree Rat","Echimyidae","Pattonomys","carrikeri",NA,"FruiNect",0.500402424,"DD",1186.910981,1315.95562,10.87230978
+"351","Pattonomys occasius","Bare-tailed armored tree-rat","Echimyidae","Pattonomys","occasius",NA,"FruiNect",0.500402424,"DD",137.4448686,216.9451739,57.84159576
+"352","Pattonomys semivillosus","Speckled spiny tree-rat ","Echimyidae","Pattonomys","semivillosus",NA,"FruiNect",0.500402424,"LC",1158.306566,1337.143843,15.43954615
+"353","Pecari tajacu","Collared peccary","Tayassuidae","Pecari","tajacu",NA,"PlantSeed",1.088899975,"LC",464.2799325,617.417934,32.98398028
+"354","Peromyscus aztecus","Aztec mouse","Cricetidae","Peromyscus","aztecus",NA,"Omnivore",1.220607265,"LC",1040.543525,1308.949568,25.79479251
+"355","Peromyscus beatae","Orizaba deer mouse","Cricetidae","Peromyscus","beatae",NA,"Omnivore",1.220607265,"LC",1128.436758,1379.245204,22.22618532
+"356","Peromyscus furvus","Blackish deer mouse","Cricetidae","Peromyscus","furvus",NA,"Omnivore",1.220607265,"DD",1139.066922,1490.484081,30.85131806
+"357","Peromyscus grandis","Big deer mouse","Cricetidae","Peromyscus","grandis",NA,"Omnivore",1.220607265,"NT",1082.982151,1396.697345,28.96771605
+"358","Peromyscus gratus","Osgood's mouse","Cricetidae","Peromyscus","gratus",NA,"Omnivore",1.220607265,"LC",751.6458623,982.0571019,30.65422841
+"359","Peromyscus guatemalensis","Guatemalan deer mouse","Cricetidae","Peromyscus","guatemalensis",NA,"Omnivore",1.220607265,"LC",1422.245556,1535.653591,7.973871657
+"360","Peromyscus gymnotis","Naked-eared deer mouse","Cricetidae","Peromyscus","gymnotis",NA,"Omnivore",1.220607265,"LC",1625.270063,1825.844853,12.341013
+"361","Peromyscus hylocetes","Transvolcanic deer mouse","Cricetidae","Peromyscus","hylocetes",NA,"Omnivore",1.220607265,"LC",1351.730375,1694.541055,25.36087718
+"362","Peromyscus levipes","Nimble-footed mouse","Cricetidae","Peromyscus","levipes",NA,"Omnivore",1.220607265,"LC",1240.181042,1566.632288,26.32287027
+"363","Peromyscus mayensis","Maya mouse","Cricetidae","Peromyscus","mayensis",NA,"Omnivore",1.220607265,"CR",1377.580975,1551.005284,12.58904642
+"364","Peromyscus megalops","Brown deer mouse","Cricetidae","Peromyscus","megalops",NA,"Omnivore",1.220607265,"LC",753.9916528,1029.23365,36.50464785
+"365","Peromyscus mekisturus","Puebla deer mouse","Cricetidae","Peromyscus","mekisturus",NA,"Omnivore",1.220607265,"CR",1377.009067,1761.080965,27.89174793
+"366","Peromyscus melanocarpus","Zempoaltepec deer mouse","Cricetidae","Peromyscus","melanocarpus",NA,"Omnivore",1.220607265,"EN",377.2139852,736.0513679,95.12833477
+"367","Peromyscus melanurus","Black-tailed mouse","Cricetidae","Peromyscus","melanurus",NA,"Omnivore",1.220607265,"EN",595.1938887,842.3275125,41.52153248
+"368","Peromyscus mexicanus","Mexican deer mouse","Cricetidae","Peromyscus","mexicanus",NA,"Omnivore",1.220607265,"LC",1022.954971,1281.684178,25.29233595
+"369","Peromyscus ochraventer","El Carrizo deer mouse","Cricetidae","Peromyscus","ochraventer",NA,"Omnivore",1.220607265,"EN",424.5609152,575.3680898,35.520739
+"370","Peromyscus schmidlyi","Schmidly's deer mouse","Cricetidae","Peromyscus","schmidlyi",NA,"Omnivore",1.220607265,"LC",263.5837516,395.8471728,50.17889774
+"371","Peromyscus simulus","Nayarit mouse","Cricetidae","Peromyscus","simulus",NA,"Omnivore",1.220607265,"VU",1013.449037,1194.582463,17.8729684
+"372","Peromyscus spicilegus","Gleaning mouse","Cricetidae","Peromyscus","spicilegus",NA,"Omnivore",1.220607265,"LC",452.4993532,630.3197553,39.29738261
+"373","Peromyscus winkelmanni","Winkelmann's mouse","Cricetidae","Peromyscus","winkelmanni",NA,"Omnivore",1.220607265,"EN",382.9774376,414.1523235,8.140136435
+"374","Peromyscus yucatanicus","Yucatan deer mouse","Cricetidae","Peromyscus","yucatanicus",NA,"Omnivore",1.220607265,"LC",425.611184,597.6472534,40.4209466
+"375","Peromyscus zarhynchus","Chiapan deer mouse","Cricetidae","Peromyscus","zarhynchus",NA,"Omnivore",1.220607265,"VU",1088.449742,1366.246552,25.52224506
+"376","Philander andersoni","Anderson's four-eyed opossum","Didelphidae","Philander","andersoni",NA,"Omnivore",1.504788284,"LC",110.0868212,153.2183369,39.17954507
+"377","Philander deltae","Deltaic four-eyed opossum","Didelphidae","Philander","deltae",NA,"Omnivore",1.504788284,"LC",365.733084,511.8099546,39.94084128
+"378","Philander frenatus","Southeastern four-eyed opossum","Didelphidae","Philander","frenatus",NA,"Omnivore",1.504788284,"LC",913.2779341,1210.321642,32.52500649
+"379","Philander mcilhennyi","McIlhenny's four-eyed opossum","Didelphidae","Philander","mcilhennyi",NA,"Omnivore",1.504788284,"LC",56.85863903,77.18228405,35.7441637
+"380","Philander mondolfii","Mondolfi's four-eyed opossum","Didelphidae","Philander","mondolfii",NA,"Omnivore",1.504788284,"LC",683.0524822,805.807738,17.97157012
+"381","Philander opossum","Gray four-eyed opossum","Didelphidae","Philander","opossum",NA,"Omnivore",1.504788284,"LC",334.8661659,436.8223182,30.44683598
+"382","Phylloderma stenops","Pale-faced bat","Phyllostomidae","Phylloderma","stenops",NA,"PlantSeed",1.088899975,"LC",404.981628,530.0698533,30.88738269
+"383","Phyllostomus discolor","Pale spear-nosed bat","Phyllostomidae","Phyllostomus","discolor",NA,"FruiNect",1.088899975,"LC",438.8383226,567.5393207,29.32765701
+"384","Phyllostomus elongatus","Lesser spear-nosed bat","Phyllostomidae","Phyllostomus","elongatus",NA,"Invertebrate",0.940447989,"LC",362.0502962,481.5824818,33.01535361
+"385","Phyllostomus hastatus","Greater spear-nosed bat","Phyllostomidae","Phyllostomus","hastatus",NA,"Omnivore",0.943348392,"LC",431.565238,559.9986835,29.75991443
+"386","Pithecia aequatorialis","Equatorial saki","Pitheciidae","Pithecia","aequatorialis",NA,"Omnivore",1.313834033,"LC",128.9203499,169.8619986,31.75732047
+"387","Pithecia hirsuta","Hairy saki","Pitheciidae","Pithecia","hirsuta",NA,"Omnivore",1.313834033,"DD",96.16549739,114.5465314,19.11395929
+"388","Pithecia inusta","Burnished saki","Pitheciidae","Pithecia","inusta",NA,"Omnivore",1.313834033,"LC",219.4513731,310.9363942,41.68806048
+"389","Pithecia irrorata","Rio Tapajós saki","Pitheciidae","Pithecia","irrorata",NA,"Omnivore",1.313834033,"DD",145.6140616,219.1081956,50.47186598
+"390","Pithecia isabela","Isabel's saki","Pitheciidae","Pithecia","isabela",NA,"Omnivore",1.313834033,"DD",155.7822467,191.8261103,23.13733707
+"391","Pithecia milleri","Miller's saki ","Pitheciidae","Pithecia","milleri",NA,"Omnivore",1.313834033,"VU",487.4620118,650.9442163,33.53742458
+"392","Pithecia monachus","Monk saki","Pitheciidae","Pithecia","monachus",NA,"Omnivore",1.313834033,"LC",86.5823695,112.4812631,29.91243333
+"393","Pithecia napensis","Napo saki","Pitheciidae","Pithecia","napensis",NA,"Omnivore",1.313834033,"LC",136.8764893,214.9615864,57.04785197
+"394","Pithecia pithecia","White-faced saki","Pitheciidae","Pithecia","pithecia",NA,"Omnivore",1.313834033,"LC",141.3953443,195.7311257,38.42826764
+"395","Pithecia rylandsi","Rylands' bald-faced saki","Pitheciidae","Pithecia","rylandsi",NA,"Omnivore",1.313834033,"VU",226.1265663,337.951475,49.45235338
+"396","Platyrrhinus albericoi",NA,"Phyllostomidae","Platyrrhinus","albericoi",NA,"FruiNect",0.325082973,"LC",325.1027501,447.7992109,37.74082522
+"397","Platyrrhinus angustirostris","Slender broad-nosed bat ","Phyllostomidae","Platyrrhinus","angustirostris",NA,"FruiNect",0.325082973,"LC",699.1992834,844.623416,20.79866728
+"398","Platyrrhinus aquilus","Darien broad-nosed bat","Phyllostomidae","Platyrrhinus","aquilus",NA,"FruiNect",0.325082973,"DD",262.9589129,313.3705662,19.17092397
+"399","Platyrrhinus aurarius","Eldorado broad-nosed bat","Phyllostomidae","Platyrrhinus","aurarius",NA,"FruiNect",0.325082973,"LC",76.77338062,111.7516019,45.56035051
+"400","Platyrrhinus brachycephalus","Short-headed broad-nosed bat","Phyllostomidae","Platyrrhinus","brachycephalus",NA,"FruiNect",0.325082973,"LC",178.2890924,252.3326443,41.53005148
+"401","Platyrrhinus chocoensis","Choco broad-nosed bat","Phyllostomidae","Platyrrhinus","chocoensis",NA,"FruiNect",0.325082973,"VU",517.7144922,650.512442,25.65080789
+"402","Platyrrhinus dorsalis","Thomas's broad-nosed bat ","Phyllostomidae","Platyrrhinus","dorsalis",NA,"FruiNect",0.325082973,"LC",989.2310824,1170.787966,18.35333388
+"403","Platyrrhinus fusciventris","Brown-bellied broad-nosed bat","Phyllostomidae","Platyrrhinus","fusciventris",NA,"FruiNect",0.325082973,"LC",151.8734448,210.4466494,38.56711406
+"404","Platyrrhinus helleri","Heller's broad-nosed bat","Phyllostomidae","Platyrrhinus","helleri",NA,"FruiNect",0.325082973,"LC",374.977913,490.3253746,30.76113489
+"405","Platyrrhinus incarum","Broad-nosed bat","Phyllostomidae","Platyrrhinus","incarum",NA,"FruiNect",0.325082973,"LC",228.3086611,332.9799938,45.84641347
+"406","Platyrrhinus infuscus","Buffy broad-nosed bat","Phyllostomidae","Platyrrhinus","infuscus",NA,"FruiNect",0.325082973,"LC",405.9716259,535.0958073,31.80620839
+"407","Platyrrhinus ismaeli",NA,"Phyllostomidae","Platyrrhinus","ismaeli",NA,"FruiNect",0.325082973,"NT",489.8914126,673.666295,37.51339127
+"408","Platyrrhinus lineatus","White-lined broad-nosed bat","Phyllostomidae","Platyrrhinus","lineatus",NA,"FruiNect",0.325082973,"LC",682.6468173,884.111218,29.51224493
+"409","Platyrrhinus masu",NA,"Phyllostomidae","Platyrrhinus","masu",NA,"FruiNect",0.325082973,"LC",208.1347862,314.6188763,51.16112113
+"410","Platyrrhinus matapalensis","Matapalo broad-nosed bat","Phyllostomidae","Platyrrhinus","matapalensis",NA,"FruiNect",0.325082973,"NT",1114.015249,1497.144355,34.39172906
+"411","Platyrrhinus nigellus",NA,"Phyllostomidae","Platyrrhinus","nigellus",NA,"FruiNect",0.325082973,"LC",669.4990532,862.8257682,28.87632388
+"412","Platyrrhinus nitelinea","Western broad-nosed bat","Phyllostomidae","Platyrrhinus","nitelinea",NA,"FruiNect",0.325082973,"DD",760.0612547,920.2667179,21.07796736
+"413","Platyrrhinus vittatus","Greater broad-nosed bat","Phyllostomidae","Platyrrhinus","vittatus",NA,"FruiNect",0.325082973,"LC",991.7423439,1153.066405,16.26673118
+"414","Plecturocebus aureipalatii","Madidi titi","Pitheciidae","Plecturocebus","aureipalatii",NA,"Omnivore",1.029653014,"LC",164.9937446,244.8216559,48.38238654
+"415","Plecturocebus brunneus","Brown titi","Pitheciidae","Plecturocebus","brunneus",NA,"Omnivore",1.029653014,"LC",342.4452419,499.4504579,45.84826909
+"416","Plecturocebus caquetensis","Caquetá titi","Pitheciidae","Plecturocebus","caquetensis",NA,"Omnivore",1.029653014,"CR",847.6160158,1075.526159,26.88837151
+"417","Plecturocebus cupreus","Coppery titi","Pitheciidae","Plecturocebus","cupreus",NA,"Omnivore",1.029653014,"LC",60.60182365,80.36135833,32.60551165
+"418","Plecturocebus discolor","White-tailed titi","Pitheciidae","Plecturocebus","discolor",NA,"Omnivore",1.029653014,"LC",191.2630539,279.9125609,46.34951976
+"419","Plecturocebus donacophilus","White-eared titi","Pitheciidae","Plecturocebus","donacophilus",NA,"Omnivore",1.029653014,"LC",293.0242499,389.3288009,32.86572732
+"420","Plecturocebus dubius","Hershkovitz's titi","Pitheciidae","Plecturocebus","dubius",NA,"Omnivore",1.029653014,"LC",192.2423614,280.4815229,45.89995719
+"421","Plecturocebus modestus","Rio Beni titi","Pitheciidae","Plecturocebus","modestus",NA,"Omnivore",1.029653014,"EN",399.1916604,543.3739453,36.11856136
+"422","Plecturocebus oenanthe","Rio Mayo titi","Pitheciidae","Plecturocebus","oenanthe",NA,"Omnivore",1.029653014,"CR",688.9711106,973.0623064,41.2341231
+"423","Plecturocebus ornatus","Ornate titi","Pitheciidae","Plecturocebus","ornatus",NA,"FruiNect",0.801818553,"VU",637.7947215,830.9749275,30.28877467
+"424","Plecturocebus pallescens","White-coated Titi","Pitheciidae","Plecturocebus","pallescens",NA,"Omnivore",1.029653014,"LC",224.4873011,379.9450813,69.25014444
+"425","Podoxymys roraimae","Roraima mouse","Cricetidae","Podoxymys","roraimae",NA,"PlantSeed",1.279854226,"VU",228.0793803,420.1303668,84.20357255
+"426","Potos flavus","Kinkajou","Procyonidae","Potos","flavus",NA,"FruiNect",0.63903186,"LC",438.8147109,569.1273021,29.69649556
+"427","Procyon lotor","North American raccoon","Procyonidae","Procyon","lotor",NA,"Omnivore",1.33217904,"LC",760.1504338,1031.402,35.68393233
+"428","Proechimys brevicauda","Short-tailed spiny-rat","Echimyidae","Proechimys","brevicauda",NA,"PlantSeed",0.801818553,"LC",168.9067783,239.97004,42.07247483
+"429","Proechimys chrysaeolus","Boyacá spiny rat","Echimyidae","Proechimys","chrysaeolus",NA,"PlantSeed",0.801818553,"DD",1045.614099,1254.42204,19.96988584
+"430","Proechimys cuvieri","Cuvier's spiny rat","Echimyidae","Proechimys","cuvieri",NA,"PlantSeed",0.801818553,"LC",127.4405638,180.0508498,41.28221376
+"431","Proechimys gardneri","Gardner's spiny-rat","Echimyidae","Proechimys","gardneri",NA,"PlantSeed",0.801818553,"DD",114.2441334,168.4345763,47.43389547
+"432","Proechimys guyannensis","Guyenne spiny-rat","Echimyidae","Proechimys","guyannensis",NA,"PlantSeed",0.801818553,"LC",124.8916848,179.0467514,43.36162713
+"433","Proechimys hoplomyoides","Guyanan spiny-rat","Echimyidae","Proechimys","hoplomyoides",NA,"PlantSeed",0.801818553,"DD",51.67866767,79.69533498,54.21321519
+"434","Proechimys longicaudatus","Long-tailed spiny rat","Echimyidae","Proechimys","longicaudatus",NA,"PlantSeed",0.801818553,"LC",422.9280918,570.5538146,34.90563187
+"435","Proechimys quadruplicatus","Napo spiny rat","Echimyidae","Proechimys","quadruplicatus",NA,"PlantSeed",0.801818553,"LC",95.88590174,139.9161411,45.91940899
+"436","Proechimys semispinosus","Tome's spiny rat","Echimyidae","Proechimys","semispinosus",NA,"PlantSeed",0.801818553,"LC",799.4752013,973.2916901,21.74132337
+"437","Proechimys simonsi","Simons's spiny rat","Echimyidae","Proechimys","simonsi",NA,"PlantSeed",0.801818553,"LC",144.4809628,207.859703,43.86649907
+"438","Proechimys steerei","Steere's spiny rat","Echimyidae","Proechimys","steerei",NA,"PlantSeed",0.801818553,"LC",107.186001,150.9757381,40.85397036
+"439","Pudu mephistophiles","Northern pudú","Cervidae","Pudu","mephistophiles",NA,"PlantSeed",0.63903186,"VU",811.7700083,1020.415827,25.70257786
+"440","Pygoderma bilabiatum","Ipanema bat","Phyllostomidae","Pygoderma","bilabiatum",NA,"FruiNect",0,"LC",786.5420608,1008.195293,28.18072207
+"441","Rhagomys longilingua","Long-tongued arboreal mouse","Cricetidae","Rhagomys","longilingua",NA,"PlantSeed",1.279854226,"LC",435.2923831,622.2690674,42.95427429
+"442","Rhinophylla alethina","Hairy little fruit bat","Phyllostomidae","Rhinophylla","alethina",NA,"FruiNect",0.325082973,"NT",766.2846847,1009.396419,31.72603334
+"443","Rhinophylla fischerae","Fischer's little fruit bat","Phyllostomidae","Rhinophylla","fischerae",NA,"FruiNect",0.325082973,"LC",196.7145602,269.8414563,37.17411465
+"444","Rhinophylla pumilio","Dwarf little fruit bat","Phyllostomidae","Rhinophylla","pumilio",NA,"FruiNect",0.325082973,"LC",280.5435334,377.8853326,34.69757365
+"445","Rhipidomys austrinus","Southern climbing mouse","Cricetidae","Rhipidomys","austrinus",NA,"Omnivore",1.366158848,"LC",468.2960081,632.1933828,34.99867004
+"446","Rhipidomys caucensis","Cauca climbing mouse","Cricetidae","Rhipidomys","caucensis",NA,"Omnivore",1.366158848,"DD",1161.660663,1357.22751,16.83510962
+"447","Rhipidomys couesi","Coues's climbing mouse","Cricetidae","Rhipidomys","couesi",NA,"Omnivore",1.366158848,"LC",1162.205935,1347.258777,15.92255184
+"448","Rhipidomys fulviventer","Buff-bellied climbing mouse","Cricetidae","Rhipidomys","fulviventer",NA,"Omnivore",1.366158848,"LC",1057.105579,1264.829081,19.65021331
+"449","Rhipidomys gardneri","Gardner's climbing mouse","Cricetidae","Rhipidomys","gardneri",NA,"Omnivore",1.366158848,"LC",74.42373074,117.2523341,57.54697188
+"450","Rhipidomys latimanus","Broad-footed climbing mouse","Cricetidae","Rhipidomys","latimanus",NA,"Omnivore",1.366158848,"LC",885.3219748,1063.52265,20.12834658
+"451","Rhipidomys leucodactylus","White-footed climbing mouse","Cricetidae","Rhipidomys","leucodactylus",NA,"Omnivore",1.366158848,"LC",151.9106844,211.3813376,39.14843344
+"452","Rhipidomys macconnelli","MacConnell's climbing mouse","Cricetidae","Rhipidomys","macconnelli",NA,"Omnivore",1.366158848,"LC",76.55064921,129.2578645,68.85273457
+"453","Rhipidomys modicus","Peruvian climbing mouse","Cricetidae","Rhipidomys","modicus",NA,"Omnivore",1.366158848,"LC",364.952077,504.7256214,38.29915028
+"454","Rhipidomys nitela","Splendid climbing mouse","Cricetidae","Rhipidomys","nitela",NA,"Omnivore",1.366158848,"LC",102.3325398,149.0001656,45.60389685
+"455","Rhipidomys ochrogaster","Yellow-bellied climbing mouse","Cricetidae","Rhipidomys","ochrogaster",NA,"Omnivore",1.366158848,"DD",557.6911661,679.7237156,21.88174333
+"456","Rhipidomys venezuelae","Venezuelan climbing mouse","Cricetidae","Rhipidomys","venezuelae",NA,"Omnivore",1.366158848,"LC",1140.014342,1258.848951,10.42395729
+"457","Rhipidomys venustus","Charming climbing mouse","Cricetidae","Rhipidomys","venustus",NA,"Omnivore",1.366158848,"LC",1213.892453,1326.604631,9.285186458
+"458","Rhipidomys wetzeli","Wetzel's climbing mouse","Cricetidae","Rhipidomys","wetzeli",NA,"Omnivore",1.366158848,"LC",75.94006018,126.5987081,66.70872768
+"459","Saguinus geoffroyi","Geoffroy's tamarin","Cebidae","Saguinus","geoffroyi",NA,"FruiNect",1.088899975,"NT",493.9098598,568.6089721,15.12403747
+"460","Saguinus imperator","Emperor tamarin","Cebidae","Saguinus","imperator","subgrisescens","FruiNect",1.088899975,"LC",107.8231245,156.4431801,45.09241943
+"461","Saguinus inustus","Mottle-faced tamarin","Cebidae","Saguinus","inustus",NA,"FruiNect",1.088899975,"LC",64.88212937,96.85941636,49.28519964
+"462","Saguinus labiatus","White-lipped tamarin","Cebidae","Saguinus","labiatus",NA,"FruiNect",1.088899975,"LC",135.7605932,204.8435899,50.88589781
+"463","Saguinus labiatus","Thomas's Red-bellied Tamarin","Cebidae","Saguinus","labiatus","thomasi","FruiNect",1.088899975,"LC",135.7605932,204.8435899,50.88589781
+"464","Saguinus leucopus","White-footed tamarin","Cebidae","Saguinus","leucopus",NA,"FruiNect",1.088899975,"EN",861.2331673,1094.140027,27.04341499
+"465","Saguinus melanoleucus","White-mantled tamarin","Cebidae","Saguinus","melanoleucus",NA,"FruiNect",1.088899975,"LC",66.18507679,96.7326179,46.15472639
+"466","Saguinus mystax","White-rumped moustached tamarin","Cebidae","Saguinus","mystax","pluto","FruiNect",1.088899975,"LC",62.31412895,78.67706646,26.258792
+"467","Saguinus mystax","Moustached tamarin","Cebidae","Saguinus","mystax",NA,"FruiNect",1.088899975,"LC",62.31412895,78.67706646,26.258792
+"468","Saguinus oedipus","Cotton-top tamarin","Cebidae","Saguinus","oedipus",NA,"FruiNect",1.088899975,"CR",1245.686902,1442.916547,15.83300299
+"469","Saimiri boliviensis","Black-capped squirrel monkey","Cebidae","Saimiri","boliviensis",NA,"Omnivore",1.609437912,"LC",212.3243412,291.3172315,37.2038787
+"470","Saimiri boliviensis","Peruvian Squirrel Monkey ","Cebidae","Saimiri","boliviensis","peruviensis","Omnivore",1.609437912,"LC",212.3243412,291.3172315,37.2038787
+"471","Saimiri oerstedii","Central American squirrel monkey","Cebidae","Saimiri","oerstedii",NA,"Omnivore",1.609437912,"VU",1191.107494,1444.179048,21.24674354
+"472","Saimiri oerstedii","Grey-crowned Central American squirrel monkey","Cebidae","Saimiri","oerstedii","citrinellus","Omnivore",1.609437912,"VU",1191.107494,1444.179048,21.24674354
+"473","Sapajus apella","Tufted capuchin","Cebidae","Sapajus","apella",NA,"Omnivore",1.748067349,"LC",173.7904118,251.8565152,44.91968379
+"474","Sapajus cay","Azara's capuchin","Cebidae","Sapajus","cay",NA,"FruiNect",1.470808476,"LC",564.3860194,738.6782851,30.88174755
+"475","Sapajus nigritus","Black capuchin","Cebidae","Sapajus","nigritus",NA,"FruiNect",1.470808476,"NT",1023.686388,1342.56116,31.14965447
+"476","Sciurillus pusillus","Neotropical pygmy squirrel","Sciuridae","Sciurillus","pusillus",NA,"Omnivore",1.366158848,"LC",159.906061,236.0016366,47.58767442
+"477","Sciurus aestuans","Brazilian squirrel","Sciuridae","Sciurus","aestuans",NA,"PlantSeed",1.029653014,"LC",460.8599542,612.8807797,32.98633872
+"478","Sciurus alleni","Allen's squirrel","Sciuridae","Sciurus","alleni",NA,"PlantSeed",1.029653014,"LC",603.7128242,868.7593107,43.90274248
+"479","Sciurus aureogaster","Mexican gray squirrel","Sciuridae","Sciurus","aureogaster",NA,"PlantSeed",1.029653014,"LC",971.5564643,1237.978155,27.42215203
+"480","Sciurus colliaei","Collie's squirrel","Sciuridae","Sciurus","colliaei",NA,"PlantSeed",1.029653014,"LC",490.2707784,648.2674554,32.2264112
+"481","Sciurus deppei","Deppe's squirrel","Sciuridae","Sciurus","deppei",NA,"PlantSeed",1.029653014,"LC",911.5591174,1130.086878,23.9729664
+"482","Sciurus flammifer","Fiery squirrel","Sciuridae","Sciurus","flammifer",NA,"PlantSeed",1.029653014,"DD",247.506541,315.5759128,27.50204969
+"483","Sciurus gilvigularis","Yellow-throated squirrel","Sciuridae","Sciurus","gilvigularis",NA,"PlantSeed",1.029653014,"DD",198.9069459,275.4820101,38.4979337
+"484","Sciurus granatensis","Red-tailed squirrels","Sciuridae","Sciurus","granatensis",NA,"PlantSeed",1.029653014,"LC",1022.694258,1211.00374,18.41307707
+"485","Sciurus ignitus","Bolivian squirrel","Sciuridae","Sciurus","ignitus",NA,"PlantSeed",1.029653014,"LC",266.1763458,374.9756971,40.8749136
+"486","Sciurus igniventris","Northern Amazon red squirrel","Sciuridae","Sciurus","igniventris",NA,"PlantSeed",1.029653014,"LC",139.6003356,189.9252178,36.04925584
+"487","Sciurus nayaritensis","Mexican fox squirrel","Sciuridae","Sciurus","nayaritensis",NA,"PlantSeed",1.029653014,"LC",427.002877,574.7497544,34.60090912
+"488","Sciurus oculatus","Peters's squirrel","Sciuridae","Sciurus","oculatus",NA,"PlantSeed",1.029653014,"LC",1393.266142,1776.389343,27.49820651
+"489","Sciurus pucheranii","Andean squirrel","Sciuridae","Sciurus","pucheranii",NA,"PlantSeed",1.029653014,"DD",976.7757049,1157.895728,18.54264207
+"490","Sciurus pyrrhinus","Junín red squirrel","Sciuridae","Sciurus","pyrrhinus",NA,"PlantSeed",1.029653014,"DD",755.9402189,968.3224496,28.09510929
+"491","Sciurus richmondi","Richmond's squirrel","Sciuridae","Sciurus","richmondi",NA,"PlantSeed",1.029653014,"NT",945.5579056,1001.458977,5.911966976
+"492","Sciurus spadiceus","Southern Amazon red squirrel","Sciuridae","Sciurus","spadiceus",NA,"PlantSeed",1.029653014,"LC",181.8423783,259.5595048,42.73873189
+"493","Sciurus stramineus","Guayaquil squirrel","Sciuridae","Sciurus","stramineus",NA,"PlantSeed",1.029653014,"LC",1029.922362,1282.161121,24.49104601
+"494","Sciurus variegatoides","Variegated squirrel","Sciuridae","Sciurus","variegatoides",NA,"PlantSeed",1.029653014,"LC",1066.87482,1228.675806,15.165883
+"495","Sciurus yucatanensis","Yucatan squirrel","Sciuridae","Sciurus","yucatanensis",NA,"PlantSeed",1.029653014,"LC",528.6167106,720.462663,36.29207108
+"496","Scleronycteris ega","Ega long-tongued bat","Phyllostomidae","Scleronycteris","ega",NA,"FruiNect",1.088899975,"DD",81.00829795,108.0397107,33.36869606
+"497","Sigmodontomys alfari","Short-tailed sigmodontomys","Cricetidae","Sigmodontomys","alfari",NA,"PlantSeed",1.279854226,"LC",805.5063333,938.891057,16.55911545
+"498","Sooretamys angouya","Rat-headed rice rat","Cricetidae","Sooretamys","angouya",NA,"Omnivore",1.33217904,"LC",856.1500668,1144.960947,33.73367488
+"499","Sphaeronycteris toxophyllum","Visored bat","Phyllostomidae","Sphaeronycteris","toxophyllum",NA,"FruiNect",0.897945725,"LC",263.9182184,333.7664071,26.4658458
+"500","Sturnira aratathomasi","Aratathomas's yellow-shouldered bat","Phyllostomidae","Sturnira","aratathomasi",NA,"FruiNect",0,"LC",959.6138645,1105.923195,15.24668785
+"501","Sturnira bakeri","Baker's Yellow-shouldered Bat","Phyllostomidae","Sturnira","bakeri",NA,"FruiNect",0,"LC",791.387982,902.5373031,14.04485835
+"502","Sturnira bidens","Bidentate yellow-shouldered bat","Phyllostomidae","Sturnira","bidens",NA,"FruiNect",0,"LC",840.6633152,1032.82627,22.85849182
+"503","Sturnira bogotensis","Bogotá yellow-shouldered bat","Phyllostomidae","Sturnira","bogotensis",NA,"FruiNect",0,"LC",957.0730768,1153.96933,20.57275021
+"504","Sturnira erythromos","Hairy yellow-shouldered bat","Phyllostomidae","Sturnira","erythromos",NA,"FruiNect",0,"LC",706.6570517,875.8829575,23.94738797
+"505","Sturnira hondurensis","Honduran yellow-shouldered bat","Phyllostomidae","Sturnira","hondurensis",NA,"FruiNect",0,"LC",1050.213593,1303.250551,24.09385662
+"506","Sturnira koopmanhilli","Chocoan yellow-shouldered bat","Phyllostomidae","Sturnira","koopmanhilli",NA,"FruiNect",0,"DD",594.4344114,777.620176,30.81681698
+"507","Sturnira lilium","Little yellow-shouldered bat","Phyllostomidae","Sturnira","lilium",NA,"FruiNect",0,"LC",696.3054009,900.5361876,29.33063371
+"508","Sturnira ludovici","Highland yellow-shouldered bat","Phyllostomidae","Sturnira","ludovici",NA,"FruiNect",0,"LC",872.1220139,1045.786812,19.91290152
+"509","Sturnira luisi","Louis's yellow-shouldered bat","Phyllostomidae","Sturnira","luisi",NA,"FruiNect",0,"LC",834.947599,1045.763608,25.24901075
+"510","Sturnira magna","Greater yellow-shouldered bat","Phyllostomidae","Sturnira","magna",NA,"FruiNect",0,"LC",334.5789911,445.608383,33.18480683
+"511","Sturnira mistratensis","Mistratoan yellow-shouldered bat ","Phyllostomidae","Sturnira","mistratensis",NA,"FruiNect",0,"DD",329.9039784,348.0278821,5.49369055
+"512","Sturnira mordax","Talamancan yellow-shouldered bat","Phyllostomidae","Sturnira","mordax",NA,"FruiNect",0,"LC",1039.498519,1188.855748,14.36820022
+"513","Sturnira nana","Lesser yellow-shouldered bat","Phyllostomidae","Sturnira","nana",NA,"FruiNect",0,"EN",194.6694378,421.7934279,116.6716217
+"514","Sturnira oporaphilum","Tschudi's yellow-shouldered bat","Phyllostomidae","Sturnira","oporaphilum",NA,"FruiNect",0,"LC",534.6202672,699.2531702,30.79436249
+"515","Sturnira parvidens","Little yellow-shouldered Mesoamerican bat","Phyllostomidae","Sturnira","parvidens",NA,"FruiNect",0,"LC",824.9245128,1032.932668,25.21541693
+"516","Sturnira perla","Perla Yellow-shouldered Bat","Phyllostomidae","Sturnira","perla",NA,"FruiNect",0,"DD",630.0189893,896.7775391,42.34135071
+"517","Sturnira tildae","Tilda's yellow-shouldered bat","Phyllostomidae","Sturnira","tildae",NA,"FruiNect",0,"LC",372.7564627,495.4645808,32.91911219
+"518","Tanyuromys aphrastus","Harris's Rice Water Rat","Cricetidae","Tanyuromys","aphrastus",NA,"PlantSeed",1.279854226,"DD",988.3044915,1186.237051,20.02748758
+"519","Tapecomys primus","Primordial tapecua","Cricetidae","Tapecomys","primus",NA,"PlantSeed",1.279854226,"LC",493.7017864,658.1027452,33.29964837
+"520","Tayassu pecari","White-lipped peccary","Tayassuidae","Tayassu","pecari",NA,"Omnivore",1.504788284,"VU",344.0595219,464.6940063,35.06209729
+"521","Thaptomys nigrita","Blackish grass mouse","Cricetidae","Thaptomys","nigrita",NA,"Omnivore",1.279854226,"LC",918.7961999,1206.451541,31.30785057
+"522","Thomasomys andersoni","Anderson's Oldfield mouse","Cricetidae","Thomasomys","andersoni",NA,"Omnivore",1.366158848,"DD",716.8063827,964.1585838,34.50753329
+"523","Thomasomys apeco","Apeco Oldfield mouse","Cricetidae","Thomasomys","apeco",NA,"Omnivore",1.366158848,"VU",172.9818489,173.0434303,0.035599952
+"524","Thomasomys aureus","Golden Oldfield mouse","Cricetidae","Thomasomys","aureus",NA,"Omnivore",1.366158848,"LC",787.5469278,990.6930642,25.79479764
+"525","Thomasomys auricularis","Red Andean Thomasomys","Cricetidae","Thomasomys","auricularis",NA,"Omnivore",1.366158848,"DD",923.0712032,1201.795324,30.19530016
+"526","Thomasomys baeops","Beady-eyed mouse","Cricetidae","Thomasomys","baeops",NA,"Omnivore",1.366158848,"LC",963.2623915,1232.892709,27.99136769
+"527","Thomasomys bombycinus","Silky Oldfield mouse","Cricetidae","Thomasomys","bombycinus",NA,"Omnivore",1.366158848,"VU",799.6084998,931.8327213,16.53612006
+"528","Thomasomys caudivarius","White-tipped Oldfield mouse","Cricetidae","Thomasomys","caudivarius",NA,"Omnivore",1.366158848,"LC",892.0936315,1171.212996,31.28812433
+"529","Thomasomys cinereiventer","Ashy-bellied Oldfield mouse","Cricetidae","Thomasomys","cinereiventer",NA,"Omnivore",1.366158848,"LC",1099.551035,1283.579052,16.73665086
+"530","Thomasomys cinereus","Ash-colored Oldfield mouse","Cricetidae","Thomasomys","cinereus",NA,"Omnivore",1.366158848,"LC",968.9243642,1197.473705,23.5879444
+"531","Thomasomys cinnameus","Cinnamon-colored Oldfield mouse","Cricetidae","Thomasomys","cinnameus",NA,"Omnivore",1.366158848,"LC",1007.188604,1317.203958,30.78026827
+"532","Thomasomys contradictus","Central Andes Oldfield mouse","Cricetidae","Thomasomys","contradictus",NA,"Omnivore",1.366158848,"DD",1218.576334,1446.496556,18.70381159
+"533","Thomasomys daphne","Daphne's Oldfield mouse","Cricetidae","Thomasomys","daphne",NA,"Omnivore",1.366158848,"LC",496.4438095,659.3910308,32.82289319
+"534","Thomasomys dispar","Colombian Oldfield mouse","Cricetidae","Thomasomys","dispar",NA,"Omnivore",1.366158848,"DD",995.396788,1157.570818,16.29240039
+"535","Thomasomys eleusis","Peruvian Oldfield mouse","Cricetidae","Thomasomys","eleusis",NA,"Omnivore",1.366158848,"VU",537.8881014,667.1553543,24.03236892
+"536","Thomasomys emeritus","Venezuelan Oldfield Mouse","Cricetidae","Thomasomys","emeritus",NA,"Omnivore",1.366158848,"DD",1142.545648,1224.47536,7.170804234
+"537","Thomasomys erro","Wandering Oldfield mouse","Cricetidae","Thomasomys","erro",NA,"Omnivore",1.366158848,"LC",1051.592395,1456.922993,38.54445886
+"538","Thomasomys gracilis","Slender Oldfield mouse","Cricetidae","Thomasomys","gracilis",NA,"Omnivore",1.366158848,"NT",400.7054466,568.9930324,41.99782838
+"539","Thomasomys hylophilus","Woodland Oldfield mouse","Cricetidae","Thomasomys","hylophilus",NA,"Omnivore",1.366158848,"VU",1054.455461,1192.868438,13.12648868
+"540","Thomasomys incanus","Inca Oldfield mouse","Cricetidae","Thomasomys","incanus",NA,"Omnivore",1.366158848,"LC",566.2804838,693.1669273,22.40699568
+"541","Thomasomys ischyrus","Strong-tailed Oldfield mouse","Cricetidae","Thomasomys","ischyrus",NA,"Omnivore",1.366158848,"LC",453.3768166,558.2256123,23.12619257
+"542","Thomasomys kalinowskii","Kalinowski's oldfield mouse","Cricetidae","Thomasomys","kalinowskii",NA,"Omnivore",1.366158848,"LC",574.2906338,712.3458172,24.03925386
+"543","Thomasomys ladewi","Ladew's oldfield mouse","Cricetidae","Thomasomys","ladewi",NA,"Omnivore",1.366158848,"LC",661.7489053,806.6033686,21.88964154
+"544","Thomasomys laniger","Soft-furred Oldfield mouse","Cricetidae","Thomasomys","laniger",NA,"Omnivore",1.366158848,"LC",1168.968418,1368.445865,17.06440002
+"545","Thomasomys macrotis","Large-eared Oldfield mouse","Cricetidae","Thomasomys","macrotis",NA,"Omnivore",1.366158848,"VU",614.3513212,749.2193075,21.95290896
+"546","Thomasomys monochromos","Unicolored oldfield mouse","Cricetidae","Thomasomys","monochromos",NA,"Omnivore",1.366158848,"EN",734.8170076,908.5578073,23.64409069
+"547","Thomasomys nicefori","Nicefor's Oldfield mouse","Cricetidae","Thomasomys","nicefori",NA,"Omnivore",1.366158848,"LC",1111.138308,1328.426793,19.55548501
+"548","Thomasomys niveipes","Snow-footed Oldfield mouse","Cricetidae","Thomasomys","niveipes",NA,"Omnivore",1.366158848,"LC",1280.906031,1534.794293,19.82099042
+"549","Thomasomys notatus","Distinguished Oldfield mouse","Cricetidae","Thomasomys","notatus",NA,"Omnivore",1.366158848,"LC",584.6409131,759.5788269,29.92228389
+"550","Thomasomys onkiro","Ashaninka Oldfield mouse","Cricetidae","Thomasomys","onkiro",NA,"Omnivore",1.366158848,"VU",220.0151657,375.7534395,70.78524487
+"551","Thomasomys oreas","Montane Oldfield mouse","Cricetidae","Thomasomys","oreas",NA,"Omnivore",1.366158848,"LC",552.1437288,718.163061,30.0681369
+"552","Thomasomys paramorum","Paramo oldfield mouse","Cricetidae","Thomasomys","paramorum",NA,"Omnivore",1.366158848,"LC",770.6697607,1020.760473,32.45108667
+"553","Thomasomys popayanus","Popayán Oldfield mouse","Cricetidae","Thomasomys","popayanus",NA,"Omnivore",1.366158848,"DD",675.5589774,795.7416025,17.79010111
+"554","Thomasomys praetor","Cajamarca Oldfield mouse","Cricetidae","Thomasomys","praetor",NA,"Omnivore",1.366158848,"DD",914.0544723,1109.207681,21.35028213
+"555","Thomasomys princeps","Principal Thomasomys","Cricetidae","Thomasomys","princeps",NA,"Omnivore",1.366158848,"DD",1425.217858,1686.406891,18.3262532
+"556","Thomasomys pyrrhonotus","Thomas's Oldfield mouse","Cricetidae","Thomasomys","pyrrhonotus",NA,"Omnivore",1.366158848,"VU",901.7950901,1092.770442,21.17724456
+"557","Thomasomys rosalinda","Rosalinda's Oldfield mouse","Cricetidae","Thomasomys","rosalinda",NA,"Omnivore",1.366158848,"EN",670.1303947,851.4357178,27.05523053
+"558","Thomasomys silvestris","Forest Oldfield mouse","Cricetidae","Thomasomys","silvestris",NA,"Omnivore",1.366158848,"LC",1165.805782,1585.209878,35.97546879
+"559","Thomasomys taczanowskii","Taczanowski's Oldfield mouse","Cricetidae","Thomasomys","taczanowskii",NA,"Omnivore",1.366158848,"LC",885.088637,1122.864965,26.86469102
+"560","Thomasomys ucucha","Ucucha thomasomys","Cricetidae","Thomasomys","ucucha",NA,"Omnivore",1.366158848,"VU",1042.908145,1357.053533,30.12205714
+"561","Thomasomys vestitus","Dressy oldfield mouse","Cricetidae","Thomasomys","vestitus",NA,"Omnivore",1.366158848,"LC",997.4398654,1097.70338,10.05208612
+"562","Thomasomys vulcani","Pinchicha Oldfield mouse","Cricetidae","Thomasomys","vulcani",NA,"Omnivore",1.366158848,"LC",907.9904925,1259.098076,38.66864091
+"563","Thylamys citellus","Mesopotamian Fat-tailed Mouse Opossum","Didelphidae","Thylamys","citellus",NA,"Invertebrate",0.63903186,"LC",810.7678457,981.5267008,21.06137485
+"564","Thylamys elegans","Elegant fat-tailed mouse opossum","Didelphidae","Thylamys","elegans",NA,"Invertebrate",0.63903186,"LC",922.8908986,1206.196391,30.69761472
+"565","Tlacuatzin canescens","Grayish mouse opossum","Didelphidae","Tlacuatzin","canescens",NA,"Omnivore",1.418483662,"LC",645.1280801,857.3396891,32.89449267
+"566","Tonatia bidens","Greater round-eared bat","Phyllostomidae","Tonatia","bidens",NA,"Invertebrate",0.325082973,"DD",765.1624225,974.7746975,27.39448107
+"567","Tonatia saurophila","Stripe-headed round-eared bat","Phyllostomidae","Tonatia","saurophila",NA,"Invertebrate",0.325082973,"LC",306.468579,390.1682665,27.31101759
+"568","Toromys rhipidurus","Peruvian armored tree-rat","Echimyidae","Toromys","rhipidurus",NA,"FruiNect",0.500402424,"DD",208.9549704,271.4653773,29.91573104
+"569","Trachops cirrhosus","Fringe-lipped bat","Phyllostomidae","Trachops","cirrhosus",NA,"Omnivore",0.943348392,"LC",439.4724319,572.1733821,30.19551184
+"570","Transandinomys bolivaris","Long-whiskered rice rat","Cricetidae","Transandinomys","bolivaris",NA,"PlantSeed",1.33217904,"LC",649.8222787,812.3643599,25.01331311
+"571","Transandinomys talamancae","Talamancan Rice Rat","Cricetidae","Transandinomys","talamancae",NA,"PlantSeed",1.33217904,"LC",954.7547828,1136.562419,19.04233831
+"572","Tremarctos ornatus","Spectacled bear","Ursidae","Tremarctos","ornatus",NA,"FruiNect",0.500402424,"VU",395.7988767,498.7517819,26.01141926
+"573","Trinycteris nicefori","Niceforo's big-eared bat","Phyllostomidae","Trinycteris","nicefori",NA,"Invertebrate",0.500402424,"LC",372.8204164,472.6147051,26.76738836
+"574","Tylomys fulviventer","Fulvous-bellied climbing rat ","Cricetidae","Tylomys","fulviventer",NA,"PlantSeed",0.63903186,"DD",97.55722758,148.1196505,51.82847455
+"575","Tylomys mirae","Mira climbing rat","Cricetidae","Tylomys","mirae",NA,"PlantSeed",0.63903186,"LC",561.4978424,679.0777059,20.94039454
+"576","Tylomys nudicaudus","Peters's climbing rat","Cricetidae","Tylomys","nudicaudus",NA,"PlantSeed",0.63903186,"LC",1045.152394,1271.394019,21.64675943
+"577","Tylomys panamensis","Panamanian climbing rat","Cricetidae","Tylomys","panamensis",NA,"PlantSeed",0.63903186,"DD",163.9215991,183.1946368,11.75747296
+"578","Tylomys tumbalensis","Tumbala climbing rat","Cricetidae","Tylomys","tumbalensis",NA,"PlantSeed",0.63903186,"CR",1087.822918,1170.597412,7.609188283
+"579","Tylomys watsoni","Watson's climbing rat","Cricetidae","Tylomys","watsoni",NA,"PlantSeed",0.63903186,"LC",1013.419306,1159.529316,14.41752779
+"580","Urocyon cinereoargenteus","Gray fox","Canidae","Urocyon","cinereoargenteus",NA,"Omnivore",1.557113098,"LC",861.0433295,1146.211166,33.11887178
+"581","Uroderma bilobatum","Tent-making bat","Phyllostomidae","Uroderma","bilobatum",NA,"FruiNect",0.63903186,"LC",335.2397921,446.278934,33.12230365
+"582","Uroderma magnirostrum","Brown tent-making bat","Phyllostomidae","Uroderma","magnirostrum",NA,"FruiNect",0.63903186,"LC",365.250269,481.1912725,31.74289341
+"583","Ursus americanus","American black bear","Ursidae","Ursus","americanus",NA,"Omnivore",1.16828245,"LC",318.2043888,432.8267673,36.02162087
+"584","Vampyressa melissa","Melissa's yellow-eared bat","Phyllostomidae","Vampyressa","melissa",NA,"FruiNect",0,"VU",454.768215,597.9645076,31.48775306
+"585","Vampyressa thyone","Northern little yellow-eared bat","Phyllostomidae","Vampyressa","thyone",NA,"FruiNect",0,"LC",471.186525,593.9028923,26.04411647
+"586","Vampyriscus bidens","Bidentate Yellow-eared Bat","Phyllostomidae","Vampyriscus","bidens",NA,"FruiNect",0,"LC",206.7267703,285.6411877,38.1732938
+"587","Vampyriscus brocki","Brock's yellow-eared bat","Phyllostomidae","Vampyriscus","brocki",NA,"FruiNect",0,"LC",96.58548939,134.6390458,39.39883373
+"588","Vampyriscus nymphaea","Striped yellow-eared bat","Phyllostomidae","Vampyriscus","nymphaea",NA,"FruiNect",0,"LC",726.2268176,850.989384,17.17955925
+"589","Vampyrodes caraccioli","Stripe-faced vampire bat","Phyllostomidae","Vampyrodes","caraccioli",NA,"FruiNect",0,"LC",224.6683802,311.2338464,38.53032905
+"590","Vampyrodes major",NA,"Phyllostomidae","Vampyrodes","major",NA,"FruiNect",0,"LC",867.0631884,1057.650845,21.98082671
+"591","Vampyrum spectrum","Spectral bat","Phyllostomidae","Vampyrum","spectrum",NA,"VertFishScav",0.63903186,"NT",472.5854767,593.9160586,25.67378556
