@@ -1,0 +1,23 @@
+---
+title: "data exploration feedback"
+format: html
+editor: visual
+---
+
+## Data Exploration Feedback
+
+1.  I'd like to see you write some commentary about what you learn about each data set after you run `glmpse()` at lines 29- 30.
+2.  Line 55 - WHY did you decide against converting the abbreviations? I'm fine with your decision, but when you write "I've decided against it" I can tell you were thinking something, but didn't record the thought.
+3.  Line 65. I agree that there are no outliers, but I'm confused by what a diet breadth of 0 means. How is that possible?
+4.  Line 83. Is there anywhere in your dataset where you can get more information about the two points with very high human footprints? It is conceivable to me that, though high, these might be highly urban locations or something, and that they represent true variation in the data and should not be omitted. If so, you may wish to reconsider and then not filter the outliers.
+5.  Line 149 - again, you have an issue here. Think about the bird species you know - there are LOTs of "lbj's" (little brown jobs - small birds) and relatively few large-bodied birds, so I think it is to be expected that you would have a very few really big birds. I think you need to explore those points more to see if they are truly outliers or just represent natural variation. Can you query your data (answer: yes) to find out what species of birds are represented by those values and decide if in fact they might be correct? If so then again, you won't filter your outliers.
+6.  We know that home range size scales with body size, so it is to be expected that with a few large species, they will have large body sizes. Again, I would lean toward keeping these values in the dataset.
+7.  With regard to all of these outlier issues: remember that even though the MATH might say "hey, this value looks out of range" and plot points above or below the whiskers in a boxplot, you still need to think like a biologist to make your decisions. Remember, too, that this is a curated dataset - it is very likely that they have that many mistakes in the data?
+8.  Line 243 - I know we talked about getting rid of DD and LC but maybe you want to keep them in? Another option would be to clump them together into one category.
+9.  One thing we need to do with your data is make IUCN category an ORDERED factor - because CR is worse than EN is worse than NT is worse than VU.
+10. For your parrot data, we're going to do an ordinal multiple regression (categorical and ordered Y variable) to look at how multiple variables might influence conservation status. I'm glad (and it is appropriate) that you are making all of these plots. We can work together to figure out the code for the ordinal regression.
+11. I agree that you have an issue when you get down to just 26 observations. We have a few choices:
+        - Keep the 26 and limit the number of predictors we put into our model
+        - Don't remove the LC treatment level so that we have more rows in the DF
+        
+Overall, this was very thorough!
