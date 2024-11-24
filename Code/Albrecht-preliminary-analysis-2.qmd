@@ -11,6 +11,8 @@ In this analysis, I am looking at the relationship between diet breadth and body
 
 Given that both variables are ratio data, a linear regression is required to determine if there is a correlation between these two factors.
 
+I predict that there will be a positive relationship in diet breadth and body size in neotropical parrots.
+
 #### Setting up
 
 Clear R's environment and open relevant packages.
@@ -97,6 +99,8 @@ summary(parrot_model)
 ```
 
 From this test we obtain really small F-value(0.03552) and large p-value (0.8488) indicate that there was no significant relationship between the two variables. The adjusted R-squared value should indicate how much variation in body size is associated with diet breadth. My Adjusted R-squared value is very small and negative. I have no clue what exactly this indicates. Google is telling me there is probably an error in my model so I wonder if it has to do with the model not meeting at assumptions.
+
+### Results Statement: I found no significant relationship between diet breadth and body size (df =1, F= 0.0365, p = 0.8488) 
 
 ## Make a new (pretty) plot
 
