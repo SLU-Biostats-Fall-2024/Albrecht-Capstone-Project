@@ -1,0 +1,103 @@
+---
+title: "Albrecht-preliminary-analysis-3"
+author: Evelyn Albrecht
+format: html
+editor: visual
+---
+
+## Introduction
+
+In this analysis, I am looking at the impacts that longevity, body size, generation time, home range size, and percent fruit in diet as indicators of ICUN status. To determine any relationships, I will be conducting another ordinal logistic regression. I hypothesize that species with long lifespan, long generation time, large home ranges, and high percent fruit in diet will correspond with more severe IUCN categorizations.
+
+## Setting up
+
+Clear environment and open relevant packages.
+
+```{r}
+rm(list=ls())  
+library(tidyverse) 
+library("here")
+library('ordinal')
+```
+
+Read in the data.
+
+```{r}
+birds <- read.csv(here("Data","Albrecht_Frugivoria_bird_database_2023_full.csv"))
+#I am using this original data because I am keeping all of the values instead of getting rid of outliers. additionally, I am keeping LC as a category so it is just the original dataset
+```
+
+### Skipping the vegan stuff (see analysis one for more in depth explanation)
+
+#### Basically, the vegan ordination stuff for my analysis
+
+### Trying the Geeks for Geeks method
+
+Access the information I have been using: <https://www.geeksforgeeks.org/ordinal-logistic-regression-in-r/>
+
+Use the MASS package(installed in console) and polr() function within that package.
+
+```{r}
+library(MASS)
+```
+
+## Create a model
+
+Create a model with this formula.
+
+```{r}
+#example formula 
+  #model <- polr(response ~ predictor1 + predictor2, data=data, Hess=TRUE)
+#Hess = Hessian matrix "which is necessary for certian model diagnostics"
+```
+
+Now to try with my data...
+
+Gotta convert IUCN category from character to factor data first.
+
+```{r}
+birds$IUCN_category <- as.factor(birds$IUCN_category)
+```
+
+Create model measuring IUCN category as a function of longevity, body size, generation time, home range size, and percent fruit in diet (and percent invertebrate in diet)
+
+```{r}
+bird_model <- polr(IUCN_category ~ longevity + body_size_mm + home_range_size + generation_time + diet_fruit_e, data = birds, Hess = TRUE)
+```
+
+"Error in polr(IUCN_category \~ longevity + body_size_mm + home_range_size + :
+attempt to find suitable starting values failed" - it seems to be because the insect diet variable has entries that are 0, the model will not work.
+
+I should either remove the variable all together or omit the 0s within that variable.
+
+Creating the model without that variable for now.
+
+## Check the model assumptions 
+
+Due to the models nature, it does not have any assumptions it abides by that requires checking.
+
+## Interpret the model
+
+Gather the sats from the summary() function.
+
+```{r}
+summary(bird_model)
+```
+
+I saw that the bigger the absolute value of t, the higher impact and that values greater than 2 and less than -2 indicate significance.
+
+Longevity, home range, and percent fruit in diet appeat to not not have a significant impact on IUCN categorization.
+
+Body size and generation time seem to have a significant impact on IUCN category.
+
+Due to having the highest absolute value, it seems like generation time is the best indicator for IUCN category.
+
+I also noticed the "1031 observations deleted due to missingness" and am not sure how to interpret that and whether is should be worried.
+
+## Make a new (pretty) plot
+
+using the Geek for Geek stuff again
+
+lets dive into it?
+
+I am completely lost. I do not understand how to apply what is on the page to my data.

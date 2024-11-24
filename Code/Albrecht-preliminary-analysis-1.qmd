@@ -1,0 +1,149 @@
+---
+title: "Albrecht-preliminary-data-analysis-1"
+author: "Evelyn Albrecht"
+format: html
+editor: visual
+---
+
+### Introduction
+
+In this analysis, I will be looking at the impacts of diet breadth and human footprint on IUCN category.
+
+In order to determine significance of relationships, I will be conducting an ordinal logistic regression. I predict that larger diet breadths would result in lower IUCN categorizations and that higher human footprints would correspond with higher IUCN categories.
+
+#### Setting up
+
+```{r}
+rm(list=ls())  
+library(tidyverse) 
+library("here")
+library(vegan) 
+library('ordinal') # package use to run an ordinal logistic regression. 
+```
+
+#### Read in the data.
+
+```{r}
+mammals <- read.csv(here("Data","Frugivoria_mammals_edited_again.csv"))
+```
+
+### Experimenting with different ways of going about ordinal stuff
+
+#### Using Erika's tutorial qmd thing for converting data frames and ordinationx 
+
+My data frame is long, not wide. Therefore it will need to be converted into a wide one.
+
+vertical. each species is a list. i think we want IUCN status as the first thing?
+
+lets try and imimitate the workflow
+
+```{r}
+long_mammal_summary <- mammals %>%
+  group_by(IUCN_category, diet_breadth, mean_human_fp_range_2020) %>%
+  summarise(num_icun = length(IUCN_category))
+```
+
+This doesn't seem like it is working.
+
+I don't think this is actually applicable to me cause I don't have count data, every animal is its own observation.
+
+\*11/22/2024 note - this isn't applicable to me because I am doing ordinal logistic regression, not ordination.
+
+## Initial plot of the data. 
+
+```{r}
+ggplot(mammals, aes(x=IUCN_category, y=diet_breadth)) + 
+  geom_boxplot() + 
+  theme_bw()
+```
+
+```{r}
+ggplot(mammals, aes(x=IUCN_category, y=mean_human_fp_range_2020)) + 
+  geom_boxplot() + 
+  theme_bw()
+```
+
+## Create a model
+
+### Trying the Geeks for Geeks method
+
+URL to what I am referencing: <https://www.geeksforgeeks.org/ordinal-logistic-regression-in-r/>
+
+Use the MASS package(in console) and polr() function within that package.
+
+```{r}
+library(MASS)
+```
+
+Create a model with is formula.
+
+```{r}
+#example formula 
+  #model <- polr(response ~ predictor1 + predictor2, data=data, Hess=TRUE)
+#Hess = Hessian matrix "which is necessary for certian model diagnostics"
+```
+
+Now to try with my data
+
+Gotta convert IUCN category from character to factor data first.
+
+```{r}
+mammals$IUCN_category <- as.factor(mammals$IUCN_category)
+```
+
+Create a model looking at IUCN category as a function of diet breadth and human footprint out of the mammal dataset.
+
+```{r}
+mammal_model <- polr(IUCN_category ~ diet_breadth + mean_human_fp_range_2020, data = mammals, Hess = TRUE)
+```
+
+YAY! the model was created!!
+
+## Check the model assumptions
+
+Because this is not a linear regression, there are no assumptions we need to check.
+
+## Interpret the model
+
+Use the summary() function to obtain statistics.
+
+```{r}
+summary(mammal_model)
+```
+
+Apparently, the bigger the t-value (positive or negative), the larger impact the numeric variable has on ordinal one. I additionally saw a general consensuses that values greater than 2 (or less than -2 if negative) indicate significance.
+
+Working off of this knowledge, I can claim that mean human footprint has a significant affect on IUCN categories whilst diet breadth does not (although the value is relatively close to 2).
+
+## Make a new (pretty) plot 
+
+I am still following the Geeks for Geeks site instructions but I am very very lost.
+
+lets dive into it?
+
+Here is the example the site provides. I am lost...
+
+```{r}
+# Create a sequence of scores for prediction
+new_data <- data.frame(Score = seq(min(data$Score), max(data$Score), length.out = 100))
+ 
+# Predict probabilities for each category
+predicted_probs <- as.data.frame(predict(model, newdata = new_data, type = "probs"))
+ 
+# Rename the columns for clarity
+colnames(predicted_probs) <- c("1", "2", "3", "4", "5")
+ 
+# Create a visualization
+ggplot(predicted_probs, aes(x = new_data$Score)) +
+  geom_line(aes(y = `1`, color = "Category 1"), size = 1) +
+  geom_line(aes(y = `2`, color = "Category 2"), size = 1) +
+  geom_line(aes(y = `3`, color = "Category 3"), size = 1) +
+  geom_line(aes(y = `4`, color = "Category 4"), size = 1) +
+  geom_line(aes(y = `5`, color = "Category 5"), size = 1) +
+  labs(title = "Ordinal Logistic Regression",
+       x = "Score",
+       y = "Predicted Probability") +
+  scale_color_manual(values = c("#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"),
+                     name = "Category") +
+  theme_minimal()
+```
