@@ -404,6 +404,7 @@ ggplot(frugivoria_birds2, aes(x=IUCN_category, y=generation_time))+
   geom_boxplot() +
   theme_bw()
 ```
+It appears that 
 
 Because I am working with IUCN values again, I am also going to limit this down to the IUCN categories NT, VU, EN, and CR.(basically I am omitting species ranked LC) This won't change any of the means or the patterns because I am just removing a treatment level. all of the observations for the plots are exactly the same.
 

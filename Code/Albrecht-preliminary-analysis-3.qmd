@@ -86,13 +86,15 @@ summary(bird_model)
 
 I saw that the bigger the absolute value of t, the higher impact and that values greater than 2 and less than -2 indicate significance.
 
-Longevity, home range, and percent fruit in diet appeat to not not have a significant impact on IUCN categorization.
+Longevity, home range, and percent fruit in diet appear to not not have a significant impact on IUCN categorization.
 
 Body size and generation time seem to have a significant impact on IUCN category.
 
 Due to having the highest absolute value, it seems like generation time is the best indicator for IUCN category.
 
 I also noticed the "1031 observations deleted due to missingness" and am not sure how to interpret that and whether is should be worried.
+
+### Result Statements: I found a significant relationship between body size and IUCN category (t=2.7656) and between generation time and IUCN category (-3.5317). There was no significant relationship between Longevity, home range, and percent fruit in diet and IUCN category (t=-0.1368, t=-0.1095, t=0.8974)
 
 ## Make a new (pretty) plot
 

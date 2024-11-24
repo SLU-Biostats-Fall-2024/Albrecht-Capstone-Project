@@ -115,6 +115,8 @@ Apparently, the bigger the t-value (positive or negative), the larger impact the
 
 Working off of this knowledge, I can claim that mean human footprint has a significant affect on IUCN categories whilst diet breadth does not (although the value is relatively close to 2).
 
+### Results statement: I found there was a significant relationship between mean human footprint and IUCN category (t=-3.017). There was no relationship between diet breadth and IUCN category (t=1.778)
+
 ## Make a new (pretty) plot 
 
 I am still following the Geeks for Geeks site instructions but I am very very lost.
