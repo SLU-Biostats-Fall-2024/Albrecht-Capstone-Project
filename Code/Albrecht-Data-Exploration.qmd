@@ -192,7 +192,8 @@ Looking further at the data, I think it will be fine and probably a result of na
 
 Make the actual changes to the data frames by using the filter function.
 
-I will make it a new dataframe as a saftey measure
+
+I will make it a new dataframe as a safety measure
 
 ```{r}
 frugivoria_birds2 <- filter(frugivoria_birds,
@@ -450,3 +451,18 @@ ggplot(frugivoria_birds3, aes(x=IUCN_category, y=generation_time))+
 ```
 
 The patterns are the exact same because I just removed a treatment level. But now there are only 26 observations so I am mildly concerned.
+
+## After feedback edits 
+
+I shouldn't get rid of any "outliers" because they can be explained by natural variation.
+Lets make a couple new dataframes that narrow down the IUCN without getting rid of anything else.
+
+```{r}
+mammals3 <- filter(mammals, IUCN_category == "CR" |  IUCN_category == "EN" |  IUCN_category == "NT" | IUCN_category == "VU")
+```
+
+```{r}
+write.csv(mammals3, here("Data", "Frugivoria_mammals_edited_again.csv"))
+```
+
+dont do it for the birds cause i may have to maintain the least concern speices to keep my sample size functional

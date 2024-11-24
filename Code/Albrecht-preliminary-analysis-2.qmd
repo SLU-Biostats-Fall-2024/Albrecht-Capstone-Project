@@ -1,0 +1,110 @@
+---
+title: "Albrecht-preliminary-analysis-2"
+author: "Evelyn Albrecht"
+format: html
+editor: visual
+---
+
+#### Introduction
+
+In this analysis, I am looking at the relationship between diet breadth and body size of 118 parrot species in the neotropics.
+
+Given that both variables are ratio data, a linear regression is required to determine if there is a correlation between these two factors.
+
+#### Setting up
+
+Clear R's environment and open relevant packages.
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library("here")
+library(ggfortify)
+```
+
+Read in the data and assign it the name "parrots"
+
+```{r}
+parrots <- read.csv(here("Data", "frugivoria_parrots.csv"))
+```
+
+Create an initial plot of the data comparing body size and diet breadth.
+
+```{r}
+ggplot(parrots, aes(x=diet_breadth, y=body_size_mm)) + 
+  geom_point() + 
+  xlab("Diet breadth") + 
+  ylab("Body size (mm)") + 
+  theme_bw()
+```
+
+It does not look like there is much of a correlation between diet breadth and body size.
+
+Lets try to guesstimate a theorhetical slope a line of best fit anyway.
+
+Diet breadth seems to range from 0 to about 1.4
+
+Body size ranges from about 20(?) to 950 mm
+
+lets use these ranges to calculate a *very* rough estimate of a slope.
+
+y2 - y1 / x2 - x1
+
+(950-20)/(1.4-0)
+
+Our estimated slope is 930/1.4 = 664.286. This means with each increase of 1 diet breadth metric, we anticipate
+
+Its very difficult to pinpoint a y-intercept with something so disorganized. I think it looks to be close to zero.
+
+## Create model
+
+create a model that measures body size as a function of diet breadth.
+
+```{r}
+parrot_model <- lm(body_size_mm ~ diet_breadth, data = parrots)
+```
+
+## Check model assumptions 
+
+Check the assumptions of our model using autoplot.
+
+```{r}
+autoplot(parrot_model)
+```
+
+That does not look good. The Normal Q-Q plot is very off, very abnormal. Our data does not meet the assumptions our general linear regression model dictates.
+
+I will have to rethink about how we approach this analysis. I am going to move forwards with the usual workflow for now.
+
+Time to interpret the model.
+
+## Interpret the model
+
+Run an anova and summary to gather statistics.
+
+anova() first:
+
+```{r}
+anova(parrot_model)
+```
+
+Yikes. Continue onto the summary().
+
+Our F=value is large and p-value was large (\>0.05) and therefore we are unable to reject our null hypothesis that there is a correlation between diet breadth and body size.
+
+```{r}
+summary(parrot_model)
+```
+
+From this test we obtain really small F-value(0.03552) and large p-value (0.8488) indicate that there was no significant relationship between the two variables. The adjusted R-squared value should indicate how much variation in body size is associated with diet breadth. My Adjusted R-squared value is very small and negative. I have no clue what exactly this indicates. Google is telling me there is probably an error in my model so I wonder if it has to do with the model not meeting at assumptions.
+
+## Make a new (pretty) plot
+
+```{r}
+ggplot(parrots, aes(x=diet_breadth, y=body_size_mm)) + 
+  geom_point(color = "darkred") + 
+  geom_smooth(method = "lm") + 
+  xlab("Diet breadth") + 
+  ylab("Body size (mm)") + 
+  theme_bw()
+```
