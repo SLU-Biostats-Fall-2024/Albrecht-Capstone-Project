@@ -192,7 +192,9 @@ Looking further at the data, I think it will be fine and probably a result of na
 
 Make the actual changes to the data frames by using the filter function.
 
-I will make it a new dataframe as a safety measure
+
+I will make it a new dataframe as a saftey measure
+
 
 ```{r}
 frugivoria_birds2 <- filter(frugivoria_birds,
