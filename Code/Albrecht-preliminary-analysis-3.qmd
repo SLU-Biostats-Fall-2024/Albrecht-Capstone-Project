@@ -65,14 +65,13 @@ Create model measuring IUCN category as a function of longevity, body size, gene
 bird_model <- polr(IUCN_category ~ longevity + body_size_mm + home_range_size + generation_time + diet_fruit_e, data = birds, Hess = TRUE)
 ```
 
-"Error in polr(IUCN_category \~ longevity + body_size_mm + home_range_size + :
-attempt to find suitable starting values failed" - it seems to be because the insect diet variable has entries that are 0, the model will not work.
+"Error in polr(IUCN_category \~ longevity + body_size_mm + home_range_size + : attempt to find suitable starting values failed" - it seems to be because the insect diet variable has entries that are 0, the model will not work.
 
 I should either remove the variable all together or omit the 0s within that variable.
 
 Creating the model without that variable for now.
 
-## Check the model assumptions 
+## Check the model assumptions
 
 Due to the models nature, it does not have any assumptions it abides by that requires checking.
 
