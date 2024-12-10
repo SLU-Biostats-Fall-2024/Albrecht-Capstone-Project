@@ -66,7 +66,7 @@ create a model that measures body size as a function of diet breadth.
 parrot_model <- lm(body_size_mm ~ diet_breadth, data = parrots)
 ```
 
-## Check model assumptions 
+## Check model assumptions
 
 Check the assumptions of our model using autoplot.
 
@@ -100,7 +100,7 @@ summary(parrot_model)
 
 From this test we obtain really small F-value(0.03552) and large p-value (0.8488) indicate that there was no significant relationship between the two variables. The adjusted R-squared value should indicate how much variation in body size is associated with diet breadth. My Adjusted R-squared value is very small and negative. I have no clue what exactly this indicates. Google is telling me there is probably an error in my model so I wonder if it has to do with the model not meeting at assumptions.
 
-### Results Statement: I found no significant relationship between diet breadth and body size (df =1, F= 0.0365, p = 0.8488) 
+### Results Statement: I found no significant relationship between diet breadth and body size (df =1, F= 0.0365, p = 0.8488)
 
 ## Make a new (pretty) plot
 

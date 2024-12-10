@@ -29,7 +29,7 @@ mammals <- read.csv(here("Data","Frugivoria_mammals_edited_again.csv"))
 
 ### Experimenting with different ways of going about ordinal stuff
 
-#### Using Erika's tutorial qmd thing for converting data frames and ordinationx 
+#### Using Erika's tutorial qmd thing for converting data frames and ordinationx
 
 My data frame is long, not wide. Therefore it will need to be converted into a wide one.
 
@@ -49,7 +49,7 @@ I don't think this is actually applicable to me cause I don't have count data, e
 
 \*11/22/2024 note - this isn't applicable to me because I am doing ordinal logistic regression, not ordination.
 
-## Initial plot of the data. 
+## Initial plot of the data.
 
 ```{r}
 ggplot(mammals, aes(x=IUCN_category, y=diet_breadth)) + 
@@ -117,7 +117,7 @@ Working off of this knowledge, I can claim that mean human footprint has a signi
 
 ### Results statement: I found there was a significant relationship between mean human footprint and IUCN category (t=-3.017). There was no relationship between diet breadth and IUCN category (t=1.778)
 
-## Make a new (pretty) plot 
+## Make a new (pretty) plot
 
 I am still following the Geeks for Geeks site instructions but I am very very lost.
 

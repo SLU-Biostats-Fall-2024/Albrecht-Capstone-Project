@@ -1,0 +1,56 @@
+---
+title: "prelim-analysis-feedback"
+format: html
+editor: visual
+---
+
+## Preliminary Analysis Feedback
+
+### General
+
+I have now had a chance to create some example material about Ordinal regression in the Cap-DAP-Example project. Take a look and it should really help you for Analyses 1 and 3.
+
+### Analysis 1 - Diet breadth, footprint, IUCN
+
+-   Line 12 - I like that you include your predictions, but it is time to bring back the biology and also explain WHY you think birds with larger diet breadths will have lower IUCN categories and birds in areas with higher footprint will have higher?
+
+-   Line 27 - there is not a data file called "Frugivoria_mammals_edited_again.csv" in your data folder so the data won't load. I can't review your code since I don't know what file to open. THUS MY FEEDBACK FOR THIS ANALYSIS IS JUST FROM READING BUT NOT RUNNING YOUR CODE.
+
+-   Line 34 - as we discussed in class on the day before break, you do not need to convert to wide - that is for *ordination* which is different from ordinal regression. (I see that you added that note on line 50).
+
+-   Line 91 - I suspect you need to make your IUCN category into an ORDERED factor, and not just a factor. Otherwise, I'm assuming the order is taken to be the alphebetical order of factor levels.
+
+-   Line 78 - I'm really impressed at you digging in and trying to figure out ordinal regression!
+
+### Analysis 2 - Diet breadth and body size in parrots
+
+-   Line 14 - in the final project, I'd like to see some biological justification for specific hypotheses. WHY should birds with larger diet breadths have larger body sizes?
+
+-   Very good work plotting and then guesstimating expected outcome.
+
+-   Line 57 - What do we anticipate with each increase of 1 unit in diet breadth?
+
+```{r}
+range(parrots$diet_breadth)
+```
+
+Notice that a 1.0 unit of increase in diet breadth would take us right off the scale. So maybe think about the increment of diet breadth in smaller units and its corresponding impact on body size.
+
+You are correct that you have very non-normal data. If we plot the response variable, body size, we see:
+
+```{r}
+ggplot(parrots, aes(body_size_mm))+
+  geom_histogram()
+```
+
+The data are very right-skewed. The solution to this problem is to run a glm instead of a straight-up linear regression. We'll take a *brief* look during class on Wednesday, but consult chapter 7 as well. You may want to try to use a gamma distribution with your analysis.
+
+Otherwise, looks good!
+
+### Analysis 3 - What are the best predictors of IUCN status
+
+Another ordinal logistic regression! But this one is multiple regression! Wow! Again, reach out for help, and use the example code I gave you.
+
+Note: there ARE assumptions with ordinal regression, but testing them is really challenging. So, instead of line 76 I'd like to see you say something like "Testing model assumptions for ordinal regression is beyond the scope of this course so I acknowledge them but will assume my model meets the assumptions".
+
+Same feedback for Analysis 1 as to actually running the model.
